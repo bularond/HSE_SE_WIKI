@@ -2,3 +2,5 @@
     * [Производная](school/derivative.md)
 * Дискретная математика
     * [Введение](discrete_math/first_lesson.md)
+* Математический анализ
+    * [Математический индукция](mathematical_analysis/first_lesson.md)
