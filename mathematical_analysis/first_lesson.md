@@ -1,10 +1,10 @@
 ---
-title: 1. Метод математической индукции
+title: 01. Метод математической индукции
 description: 
 published: 1
-date: 2020-11-17T13:39:42.463Z
+date: 2020-11-17T22:21:30.887Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2020-09-09T20:07:06.859Z
 ---
 
