@@ -1,10 +1,10 @@
 ---
-title: 1. Введение в алгебру
+title: 01. Введение в алгебру
 description: 
 published: 1
-date: 2020-11-17T13:39:23.003Z
+date: 2020-11-17T22:31:34.545Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2020-09-09T20:10:29.435Z
 ---
 
