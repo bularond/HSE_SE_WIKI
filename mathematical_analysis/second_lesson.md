@@ -1,10 +1,10 @@
 ---
-title: 2. Числовые последовательности
+title: 02. Числовые последовательности
 description: 
 published: 1
-date: 2020-09-22T12:19:31.623Z
+date: 2020-11-17T22:23:57.501Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2020-09-15T12:07:27.085Z
 ---
 
