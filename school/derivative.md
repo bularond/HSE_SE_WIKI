@@ -1,3 +1,13 @@
+---
+title: derivative
+description: 
+published: 1
+date: 2020-11-17T13:39:49.227Z
+tags: 
+editor: undefined
+dateCreated: 2020-11-17T13:39:42.696Z
+---
+
 # Производная
 
 ## Формулы

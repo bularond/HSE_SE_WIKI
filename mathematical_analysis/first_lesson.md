@@ -1,3 +1,13 @@
+---
+title: 1. Метод математической индукции
+description: 
+published: 1
+date: 2020-11-17T13:39:42.463Z
+tags: 
+editor: undefined
+dateCreated: 2020-09-09T20:07:06.859Z
+---
+
 # Метод математической индукции
 
 Пример

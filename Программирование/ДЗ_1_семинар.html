@@ -1,0 +1,235 @@
+<!--
+title: ДЗ 1 Семинар
+description: 
+published: 1
+date: 2020-09-19T14:39:18.792Z
+tags: 
+editor: undefined
+dateCreated: 2020-09-18T17:44:27.916Z
+-->
+
+<p><i>Файл со всеми проектами будет здесь: </i><a href="https://yadi.sk/d/a4yPip-2TDHkZg?w=1"><i>Яндекс Диск</i></a></p>
+<p><span class="text-big">Task01</span></p>
+<p><strong>Здесь все просто</strong>, даже ничего делать в принципе не надо. Нужно элементарно включить Visual Studio или Rider</p>
+<pre><code class="language-cs">using System;
+
+namespace Task01
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Hello World!");
+        }
+    }
+}</code></pre>
+<p><span class="text-big">Task02</span></p>
+<pre><code class="language-cs">using System;
+
+namespace Task02
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            /*проблема в том, чтобы вывести свое имя в несколько строк(ну из символов оно точно будет
+             в несколько строк) и как вариант можно в блокноте забить свое имя и скопировать каждую строку
+             я сделал немного интереснее с форматированием строк и любым знаком*/
+            Console.WriteLine("Введите символ: ");
+            string st = Console.ReadLine();
+            string ch = "" + st[0]; //если кто-то введет не один символ, но все равно можно опустить эту строку и будет все нормас
+            string[] s =
+            {
+                " **** ",
+                "*    *",
+                "*     ",
+                "*    *",
+                " **** "
+            };
+            string[] a =
+            {
+                "   *  ",
+                "  **  ",
+                " *  * ",
+                " **** ",
+                "*    *"
+            };
+            string[] sh =
+            {
+                "*  *  *",
+                "*  *  *",
+                "*  *  *",
+                "*  *  *",
+                "*******"
+            };
+            Console.WriteLine(); //перенос строки
+            for (var i = 0; i &lt; 5; i++)
+            {
+                Console.WriteLine(s[i] + " " + a[i] + " " + sh[i] + " " + a[i]);
+            }
+            //это был первый способ, теперь копируем и делаем интересно
+            string[] sasha =
+            {
+                " ****     *   *  *  *    *  ",
+                "*    *   **   *  *  *   **  ",
+                "*       *  *  *  *  *  *  * ",
+                "*    *  ****  *  *  *  **** ",
+                " ****  *    * ******* *    *"
+            };
+            for (var i = 0; i &lt; 5; i++)
+            {
+                Console.WriteLine(sasha[i]);
+            }
+            Console.WriteLine();
+            //и наконец форматированный вывод, опять копируем строки
+            Console.WriteLine($" {ch}{ch}{ch}{ch}     {ch}   {ch}  {ch}  {ch}    {ch}  ");
+            Console.WriteLine($"{ch}    {ch}   {ch}{ch}   {ch}  {ch}  {ch}   {ch}{ch}  ");
+            Console.WriteLine($"{ch}       {ch}  {ch}  {ch}  {ch}  {ch}  {ch}  {ch} ");
+            Console.WriteLine($"{ch}    {ch}  {ch}{ch}{ch}{ch}  {ch}  {ch}  {ch}  {ch}{ch}{ch}{ch} ");
+            Console.WriteLine($" {ch}{ch}{ch}{ch}  {ch}    {ch} {ch}{ch}{ch}{ch}{ch}{ch}{ch} {ch}    {ch}");
+            Console.WriteLine();
+            //готово, но я задолбался копировать и это явно не эфективно и нудно будет для более длинных строк
+            //сделаем еще проще
+            for (var i = 0; i &lt; 5; i++)
+            {
+                Console.WriteLine(sasha[i].Replace("*", ch));
+            }
+            //метод .Replace меняет какое-то вхождение строки на другое\ символ в строке на другой
+            //либо
+            Console.WriteLine();
+            for (var i = 0; i &lt; 5; i++)
+            {
+                sasha[i] = sasha[i].Replace("*", st);
+                string probel = "";
+                for (var g = 0; g &lt; st.Length; g++)
+                {
+                    probel += " ";
+                }
+                sasha[i] = sasha[i].Replace(" ", probel);
+                Console.WriteLine(sasha[i]);
+            }
+        }
+    }
+}</code></pre>
+<p>&nbsp;</p>
+<p><span class="text-big">RealTask02</span></p>
+<pre><code class="language-cs">using System;
+
+namespace RealTask01
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //нужно вывести столько же символов, сколько их в вашем имени
+            string name = Console.ReadLine();
+            const string k = "*";
+            for (var i = 0; i&lt;name.Length; i++)
+            {
+                Console.Write(k);//Write не делает переноса на следющую строку
+            }
+            //так же можно было создать ещё одну переменную и в неё в каждой иттерации записывать по символу
+            //и потом просто вывести эту переменную
+        }
+    }</code></pre>
+<p><br><span class="text-big">ASCIIDecoder</span></p>
+<pre><code class="language-cs">using System;
+
+namespace ASCIIDecoder
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Введите код символа(от 32 до 127): ");
+            int Code; 
+            int.TryParse(Console.ReadLine(), out Code);
+            //тоже самое можно было сделать через int.parse() или Convert.ToInt32(), но их проблема - исключения
+            Console.WriteLine((char)Code);
+            //а тут мы просто делаем явное приведение
+        }
+    }
+}</code></pre>
+<p>&nbsp;</p>
+<p><span class="text-big">Task04</span></p>
+<pre><code class="language-cs">using System;
+
+namespace Task04
+{
+    class Program
+    {
+        static double Vvod(string name)
+        {
+            /*на одном моменте я стригерился на повторяющийся код и сделал фунцию, которая запрашивает
+             (для данной задачи) ввести ту или иную физическую величину(name - ее название) и возвращает 
+             её уже вещественным числом 
+             Для тех кто ещё не занет про фунции:
+             static - функция статична(я пока хз, вообщем так пишите) _ double - тип возвращаемого значения
+             потом мдет имя Vvod, а в скобках указывается тип и локальное имя перемнной(ну в нашем случае 
+             это строка, ибо Console.WriteLine())
+             после return пишем то, что возвращается функцией
+             */
+            Console.WriteLine($"Введите значение {name}: ");
+            double rtn;
+            double.TryParse(Console.ReadLine(), out rtn);
+            return rtn;
+        }
+        
+        static void Main(string[] args)
+        {
+            //Сделаем сначала с простым вводом в стобик, а потом в строку
+            double U, R;
+            Console.WriteLine("Введите значение U: ");
+            double.TryParse(Console.ReadLine(), out U);
+            Console.WriteLine("Введите значение R: ");
+            double.TryParse(Console.ReadLine(), out R);
+            //на этом моменте мне показалось что идет повторени и я стригерился на создание функции
+            Console.WriteLine("Значение напряжения P: {0}", Math.Pow(U, 2)/R);
+            
+            
+            //тоже самое с функцией
+            U =Vvod("U");
+            R =Vvod("R");
+            Console.WriteLine("Значение напряжения P: {0}", Math.Pow(U, 2)/R);
+            // намного проще и красивее выглядит, всего-то надо разобраться с функциями
+            //теперь ввод в одну строку 
+            Console.WriteLine("Введите значение U и R: ");
+            string[] value = Console.ReadLine().Split();
+            // .Split(*что-то*) разделяет строку на элементы, разделитель между элементами *что-то*
+            // но по дефолту это пробел
+            double.TryParse(value[0], out U);
+            double.TryParse(value[1], out R);
+            Console.WriteLine("Значение напряжения P: {0}", Math.Pow(U, 2)/R);
+            //ну и для красоты можно было бы заменить на (Math.Pow(U, 2)/R).ToString("F2")
+        }
+    }
+}</code></pre>
+<p><span class="text-big">Task05</span></p>
+<pre><code class="language-cs">using System;
+
+namespace Task05
+{
+    class Program
+    {
+        static double Gipotenusa(string catet1, string catet2)
+        {
+            //ну ибо это все имеет сзначение сделал функцию, типо понадобиться мне когда-то поскчитать гипотенузу
+            // я простовызову эту функцию из своей библиотеки и все готово)
+            double ct1, ct2;
+            double.TryParse(catet1, out ct1);
+            double.TryParse(catet2, out ct2);
+            return Math.Pow(Math.Pow(ct1, 2) + Math.Pow(ct2, 2), 0.5);
+            //можно было заменить на: Math.Sqrt(Math.Pow(ct1, 2) + Math.Pow(ct2, 2)) // 
+        }
+        
+        static void Main(string[] args)
+        {
+            //ну ибо это все имеет сзначение сделал функцию
+            Console.WriteLine("Введите длинну первого катета, а затем второго");
+            Console.WriteLine(Gipotenusa(Console.ReadLine(), Console.ReadLine()));
+        }
+    }
+}</code></pre>
+<p>&nbsp;</p>
+<p>На этом все.&nbsp;</p>
+<p>&nbsp;</p>

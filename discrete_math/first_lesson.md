@@ -1,3 +1,13 @@
+---
+title: 1. Введение
+description: 
+published: 1
+date: 2020-11-17T13:39:30.494Z
+tags: 
+editor: undefined
+dateCreated: 2020-09-09T19:50:10.793Z
+---
+
 # Первый урок
 > 5 снтября 2020
 
