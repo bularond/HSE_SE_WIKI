@@ -1,10 +1,10 @@
 ---
-title: 4. Пределы функций
+title: 04. Пределы функций
 description: 
 published: 1
-date: 2020-10-06T21:34:17.718Z
+date: 2020-11-17T22:24:54.513Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2020-09-29T11:22:06.964Z
 ---
 
