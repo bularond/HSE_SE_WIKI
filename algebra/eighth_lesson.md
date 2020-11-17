@@ -1,10 +1,10 @@
 ---
-title: Структуры общего решения СЛАУ
+title: 08. Структуры общего решения СЛАУ
 description: 
 published: 1
-date: 2020-11-11T11:36:44.247Z
+date: 2020-11-17T22:41:56.355Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2020-11-11T11:21:40.140Z
 ---
 
