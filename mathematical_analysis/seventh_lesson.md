@@ -1,10 +1,10 @@
 ---
-title: 7. Функции, непрерывные в точке и точки разрыва
+title: 07. Функции, непрерывные в точке и точки разрыва
 description: 
 published: 1
-date: 2020-10-27T11:31:26.664Z
+date: 2020-11-17T22:30:19.256Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2020-10-27T11:31:16.404Z
 ---
 
