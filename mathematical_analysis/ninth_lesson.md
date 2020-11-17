@@ -2,9 +2,9 @@
 title: 9. Вторая теорема Верштрасса и дифференцирование
 description: 
 published: 1
-date: 2020-11-17T13:28:25.182Z
+date: 2020-11-17T14:36:13.837Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2020-11-10T11:26:40.705Z
 ---
 
@@ -69,7 +69,7 @@ $\underset{x\to0}{\lim} \frac{\Delta f}{\Delta x} = f'(x_0)$ - производ�
 \sin(x + \Delta x) - \sin x = 2\sin \frac{\Delta x}{2} \cos \frac{2x + \Delta}{2}\\
 \frac{\sin (x + \Delta x) - \sin x}{\Delta x} = 2 \frac{\sin \frac{\Delta x}{2}}{\Delta x} \cdot \cos (\frac{2x + \Delta x}{2}) \xrightarrow[\Delta x\to0]{} \cos x$
 4. $(\cos)' = -\sin x$
-5. $(e^x)' = e^x; \underset{\Delta x\to 0} \frac{e^{x+\Delta x} - e^x}{\Delta x} = \underset{\Delta x \to 0}{\lim} e^x \frac{e^{\Delta x} - 1}{\Delta x} = e^x$
+5. $(e^x)' = e^x; \underset{\Delta x\to 0}{\lim} \frac{e^{x+\Delta x} - e^x}{\Delta x} = \underset{\Delta x \to 0}{\lim} e^x \frac{e^{\Delta x} - 1}{\Delta x} = e^x$
 6. $(\ln x)' = \frac{1}{x} \quad \underset{\Delta x \to 0}{\lim} \frac{\ln(x + \Delta x) - \ln x}{\Delta x} = \underset{\Delta x \to 0}{\lim} \frac{\ln(1 + \frac{\Delta x}{x})}{\Delta x} = \underset{\Delta x\to0}{\lim} \frac{\frac{Delta x}{x}}{\Delta x} = \frac{1}{x} {}$
 
 ### Геометрический смысл производной
