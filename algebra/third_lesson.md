@@ -1,10 +1,10 @@
 ---
-title: 3. Определитель матрицы
+title: 03. Определитель матрицы
 description: 
 published: 1
-date: 2020-10-19T11:15:40.139Z
+date: 2020-11-17T22:32:41.448Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2020-09-23T09:52:00.415Z
 ---
 
