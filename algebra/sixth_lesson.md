@@ -1,10 +1,10 @@
 ---
-title: 6. Теорема о базисном миноре
+title: 06. Теорема о базисном миноре
 description: 
 published: 1
-date: 2020-10-15T22:31:18.305Z
+date: 2020-11-17T22:40:00.014Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2020-10-14T09:52:56.536Z
 ---
 
