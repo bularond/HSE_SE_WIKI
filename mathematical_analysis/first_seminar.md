@@ -1,10 +1,10 @@
 ---
-title: 1. Семинар по математической индукции
+title: 01. Семинар по математической индукции
 description: 
 published: 1
-date: 2020-09-22T11:56:45.907Z
+date: 2020-11-17T22:22:54.341Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2020-09-10T09:58:11.867Z
 ---
 
