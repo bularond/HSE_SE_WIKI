@@ -1,10 +1,10 @@
 ---
-title: 3. Бесконечно большие и малые последовательности
+title: 03. Бесконечно большие и малые последовательности
 description: 
 published: 1
-date: 2020-09-22T13:13:48.342Z
+date: 2020-11-17T22:24:30.640Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2020-09-22T11:24:10.762Z
 ---
 
