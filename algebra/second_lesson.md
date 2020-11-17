@@ -1,10 +1,10 @@
 ---
-title: 2. Метод Гаусса
+title: 02. Метод Гаусса
 description: 
 published: 1
-date: 2020-10-18T19:09:40.921Z
+date: 2020-11-17T22:31:57.034Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2020-09-16T10:40:48.048Z
 ---
 
