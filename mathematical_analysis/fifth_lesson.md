@@ -1,10 +1,10 @@
 ---
-title: 5. Свойства пределов функций
+title: 05. Свойства пределов функций
 description: 
 published: 1
-date: 2020-10-11T13:03:28.587Z
+date: 2020-11-17T22:25:09.032Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2020-10-06T11:28:53.088Z
 ---
 
