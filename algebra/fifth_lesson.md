@@ -1,10 +1,10 @@
 ---
-title: 5. Ранг матриц
+title: 05. Ранг матриц
 description: 
 published: 1
-date: 2020-10-27T17:09:42.986Z
+date: 2020-11-17T22:37:57.205Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2020-10-07T14:12:01.086Z
 ---
 
