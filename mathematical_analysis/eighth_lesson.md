@@ -1,10 +1,10 @@
 ---
-title: 8. Свойства функций, непрерывных на отрезке
+title: 08. Свойства функций, непрерывных на отрезке
 description: 
 published: 1
-date: 2020-11-03T13:13:15.657Z
+date: 2020-11-17T22:28:08.050Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2020-11-03T13:13:06.678Z
 ---
 
