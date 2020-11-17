@@ -1,10 +1,10 @@
 ---
-title: 4. Свойства определителей и обратная матрица
+title: 04. Свойства определителей и обратная матрица
 description: 
 published: 1
-date: 2020-10-22T21:17:03.513Z
+date: 2020-11-17T22:33:43.809Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2020-09-30T09:34:51.550Z
 ---
 
