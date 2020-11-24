@@ -2,7 +2,7 @@
 title: Дифференцирование функции заданой параметрически, заданой неявно
 description: 
 published: 1
-date: 2020-11-24T11:25:38.671Z
+date: 2020-11-24T11:29:50.076Z
 tags: 
 editor: markdown
 dateCreated: 2020-11-24T11:25:38.671Z
@@ -22,9 +22,9 @@ $x(a) = A; x(b) = B$
 
 На $[A, B]$ определена $t=t(x)$ - обратная функция
 
-$y = y(t(x)), y_x' = y_t' \cdot t_x' = y_t'\cdot \frac{1}{x_t'} = \frac{y_t'}{x_t'}$
+$y = y(t(x)), y_x' = y_t' \cdot t_x' = y_t'\cdot \frac{1}{x_t'} = \frac{y_t'}{x_t'} {}$
 
-$t_0; x_0 = x(t_0) \quad y_x'(x_0) = \frac{y_t'(t_0)}{x_t'(t_0)}$
+$t_0; x_0 = x(t_0) \quad y_x'(x_0) = \frac{y_t'(t_0)}{x_t'(t_0)} {}$
 
 **Пример** Циклоид
 
@@ -33,7 +33,7 @@ $R$ - радиус окружности
 $\begin{cases}
     x = Rt - R\cdot \sin{t} \\
     y = R - R \cdot cos{t}
-\end{cases}$
+\end{cases} {}$
 
 $
 y_x' = \frac{y_t'}{x_t'} = \frac{R \cdot \sin{t}}{R \cdot (1 - cos{t})} = \frac{\sin{t}}{1 - \cos{t}}
@@ -96,4 +96,4 @@ $y = y(x); y_x' \quad dy = y_x' \cdot dx \quad y_x' = \frac{dy}{dx} \\
 y(x(t)); \frac{dy}{dx} = \frac{dy}{dx} \cdot \frac{dx}{dt} \\
 y = y(x); x = x(y); \frac{dy}{dx} = \frac{1}{\frac{dx}{dy}} \\
 x = x(t) \\
-y = y(t) \quad \frac{d_y}{dx} = \frac{dy}{dt}/\frac{dx}{dt}$
+y = y(t) \quad \frac{d_y}{dx} = \frac{dy}{dt}/\frac{dx}{dt} {}$
