@@ -2,7 +2,7 @@
 title: 10. Дифференцирование
 description: 
 published: 1
-date: 2020-11-25T17:32:13.628Z
+date: 2020-11-25T17:49:25.812Z
 tags: 
 editor: markdown
 dateCreated: 2020-11-17T11:48:30.450Z
@@ -98,11 +98,11 @@ $
 
 **Теорема** (о производной обратной функции)
 
-Пусть $x = x(y)$ дифференцируема в т $y_0$ и $x_y'(y_0) = \not= 0$
+Пусть $x = x(y)$ дифференцируема в т $y_0$ и $x_y'(y_0) \not= 0$
 
-Утверждение функция $y = y(x)$ дифференцируема в т. $x_0 = x(y_0)$ и $y_x'(x_0) = \frac{1}{x_y'(y_0)}$
+**Утверждение** Функция $y = y(x)$ дифференцируема в т. $x_0 = x(y_0)$ и $y_x'(x_0) = \frac{1}{x_y'(y_0)} {}$
 
-Доказательство $\Delta x$ - приращение аргумента в т. $x_0, \Delta y = y(x_0 + \Delta x) - y(x_0), \Delta x \to 0 \implies \Delta y \to 0$, аналогично и $\Delta y \to 0 \implies x \to 0$
+**Доказательство** $\Delta x$ - приращение аргумента в т. $x_0, \Delta y = y(x_0 + \Delta x) - y(x_0), \Delta x \to 0 \implies \Delta y \to 0$, аналогично и $\Delta y \to 0 \implies x \to 0$
 
 $y_x'(x_0) = \frac{\Delta y}{\Delta x} = \frac{1}{\left(\frac{\Delta x}{\Delta y}\right)} \xrightarrow[\Delta y \to 0]{} \frac{1}{x_y'(y_0)} {}$
 
