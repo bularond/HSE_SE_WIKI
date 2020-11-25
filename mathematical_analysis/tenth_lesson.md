@@ -2,9 +2,9 @@
 title: 10. Дифференцирование
 description: 
 published: 1
-date: 2020-11-17T11:48:39.760Z
+date: 2020-11-25T17:32:13.628Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2020-11-17T11:48:30.450Z
 ---
 
@@ -104,5 +104,5 @@ $
 
 Доказательство $\Delta x$ - приращение аргумента в т. $x_0, \Delta y = y(x_0 + \Delta x) - y(x_0), \Delta x \to 0 \implies \Delta y \to 0$, аналогично и $\Delta y \to 0 \implies x \to 0$
 
-$y_x'(x_0) = \frac{\Delta y}{\Delta x} = \frac{1}{\left(\frac{\Delta x}{\Delta y}\right)} \xrightarrow[\Delta y \to 0]{} \frac{1}{x_y'(y_0)}$
+$y_x'(x_0) = \frac{\Delta y}{\Delta x} = \frac{1}{\left(\frac{\Delta x}{\Delta y}\right)} \xrightarrow[\Delta y \to 0]{} \frac{1}{x_y'(y_0)} {}$
 
