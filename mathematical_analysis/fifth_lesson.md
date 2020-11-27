@@ -2,7 +2,7 @@
 title: 05. Свойства пределов функций
 description: 
 published: 1
-date: 2020-11-17T22:25:09.032Z
+date: 2020-11-27T16:34:07.193Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-06T11:28:53.088Z
@@ -56,11 +56,11 @@ $$
 
 **Теорема 3** (о пределе зажатой фунции)
 $$
-f(x) \le g(x) \le k(x) \text{ Если } \lim_{x\to A}f(x) = \lim_{x\to a} h(x) = A, \text{ то } \lim_{x\to a} g(x) = A
+f(x) \le g(x) \le k(x) \text{ Если } \lim_{x\to A}f(x) = \lim_{x\to a} k(x) = A, \text{ то } \lim_{x\to a} g(x) = A
 $$
 Доказательство
 $$
-x_n \longrightarrow a (x_n \not= a) \implies f(x_n) \le g(x_n \le h(x_n))
+x_n \longrightarrow a (x_n \not= a) \implies f(x_n) \le g(x_n) \le k(x_n)
 $$
 
 ## Различные типы пределов
@@ -73,7 +73,7 @@ f(x) = \frac{x}{|x|} = \begin{cases}
 \lim_{x\to 0} f(x) \text{неосуществим} \\
 x_n = \frac{1}{n}; f(x_n) = 1 \longrightarrow 1 \\
 x_n = -\frac{1}{n} f(x_n) = -1 \longrightarrow -1 \\
-\lim_{x\to 0+} f(x) = 1; \lim_{x\to 0-} f(x) = 01
+\lim_{x\to 0+} f(x) = 1; \lim_{x\to 0-} f(x) = -1
 $$
 
 ---
