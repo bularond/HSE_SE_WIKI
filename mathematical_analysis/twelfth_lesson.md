@@ -2,7 +2,7 @@
 title: 12. Теоремы дифференциального исчесления
 description: 
 published: 1
-date: 2020-12-01T11:50:53.501Z
+date: 2020-12-01T12:39:10.821Z
 tags: 
 editor: markdown
 dateCreated: 2020-12-01T11:50:53.501Z
@@ -12,7 +12,7 @@ dateCreated: 2020-12-01T11:50:53.501Z
 
 1. $(x^\lambda)^{(n)} = \alpha (\alpha - 1) \cdot \dots \cdot (\alpha - n + 1) x^{alpha - n}; x > 0$
 2. $\left(\frac{1}{x}\right)^{(k)} = \frac{(-1)^n n!}{x^{n+1}}$ 
-3. $(\ln x)^{(n)} = \frac{(-1)^{n-1} (n - 1)}{x^n}$
+3. $(\ln x)^{(n)} = \frac{(-1)^{n-1} (n - 1)}{x^n} {}$
 4. $(\sin{x})^{(n)} = \sin{(x + n \frac{\pi}{2})}$
 5. $(\cos{x})^{(n)} = \cos{(x + n \frac{\pi}{2})}$
 
@@ -26,7 +26,7 @@ $(fg)^{(n+1)} = ((fg)^{(n)})' = (\sum_{k=0}^{n} C_n^k f^{(n)} g^{(n-k)})' = \\
 = \sum_{k=0}^n C_n^k f^{(k+1)} g^{(n - k)} + \sum_{k=0}^{n} C_n^k f^{(n)} g^{(n - k + 1)} = \\
 = \sum_{m=1}^n C_n^{m-1} f^{(m)} g^{(n - m + 1)} + \sum_{m=0}^{n} C_n^m f^{(n)} g^{(n - m + 1)} = \\
 = f^{(n + 1)} g^{(0)} + \sum_{m=1}^n (C_n^{m-1} + C_n^m) f^{(m)} g^{(n - m + 1)} + f^{(0)} g^{(n + 1)} = \\
-= \sum_{m=0}^{n+1} C_{n + 1}^m f^{m} g^{n - m + 1}$
+= \sum_{m=0}^{n+1} C_{n + 1}^m f^{m} g^{n - m + 1} {}$
 
 # Основные теоремы дифференциального исчисления
 
@@ -45,7 +45,7 @@ $f(x_0 + \Delta x) - f(x_0) = f'(x_0) \cdot \Delta x + \alpha (\Delta x) \cdot x
 
 $f(x_0 + \Delta x) - f(x_0) = \Delta [f'(x_0) + \alpha(\Delta x)]$
 
-для $\varepsilon = |f'(x_0) > 0| \exists \delta_1 (0 < \delta_1 < \delta) \forall \Delta x: |\Delta x| \< \delta_1 \implies |\alpha(\Delta x)| < |f'(x_0)|$
+для $\varepsilon = |f'(x_0) > 0| \exists \delta_1 (0 < \delta_1 < \delta) \forall \Delta x: |\Delta x| < \delta_1 \implies |\alpha(\Delta x)| < |f'(x_0)| {}$
 
 Следовательно, если $|\Delta x| < \delta_1, f'(x_0) \alpha(\Delta x)$ имеет тот же знак, что $f'(x_0)$
 
@@ -103,7 +103,7 @@ $\exists c \in (a, b) \implies \varphi'(c) = 0$
 
 $\varphi'(x) = f'(x) - \frac{f(b) - f(a)}{g(b) - g(a)} \cdot g'(x)$
 
-$0 = \varphi'(c) = f'(c) - \frac{f(b) - f(a)}{g(b) - g(a)} g'(c)$, т. к. $g'(c) \not= 0 \implies \frac{f(b) - f(a)}{g(b) - g(a)} = \frac{f'(c)}{g'(c)}$
+$0 = \varphi'(c) = f'(c) - \frac{f(b) - f(a)}{g(b) - g(a)} g'(c)$, т. к. $g'(c) \not= 0 \implies \frac{f(b) - f(a)}{g(b) - g(a)} = \frac{f'(c)}{g'(c)} {}$
 
 ## Теорема Лагранжа (о кончном прирощении)
 
