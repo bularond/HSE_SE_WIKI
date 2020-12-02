@@ -2,7 +2,7 @@
 title: 08. Свойства функций, непрерывных на отрезке
 description: 
 published: 1
-date: 2020-12-02T17:32:26.100Z
+date: 2020-12-02T17:34:03.006Z
 tags: 
 editor: markdown
 dateCreated: 2020-11-03T13:13:06.678Z
@@ -77,7 +77,7 @@ $$
 Доказательство:\
 Пусть непрерывная функция $f(x)$ не является ограниченной на $[a, b]$\
 $\forall n \in \N \exists x_n \in [a, b] \implies |f(x_n)| \ge n$\
-Пусть $x_{n_k}$ - соходящаяся подпоследовательсть $x_n$\
+Пусть $x_{n_k}$ - сходящаяся подпоследовательсть $x_n$\
 $\underset{n_k\to\infin} x_{n_k} = x^* \in [a, b]$\
 $\underset{n_k\to\infin}{\lim} f(x_{n_k}) = f(x^*)$\
 т. к. $|f(x_{n_k})| \ge n_k, |f(x_{n_k})| \underset{n_k\to\infin}{\longrightarrow} +\infin$\
