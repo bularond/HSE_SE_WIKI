@@ -2,7 +2,7 @@
 title: 08. Свойства функций, непрерывных на отрезке
 description: 
 published: 1
-date: 2020-11-17T22:28:08.050Z
+date: 2020-12-02T17:32:26.100Z
 tags: 
 editor: markdown
 dateCreated: 2020-11-03T13:13:06.678Z
@@ -62,7 +62,7 @@ f(x) = x^{2k+1} + a_{2k}x^{2k} + \dots + a_0 = x^{2k+1}(1+ \frac{a_{2k}}{x} + \d
 \implies \exists c \in (\alpha, \beta) \implies f(c) = 0
 $
 
-## Теорема Больцана
+## Теорема Больцано
 Всякая ограниченная последовательность содержит сходящуюся подпоследовательность
 
 $$
@@ -76,7 +76,7 @@ $$
 
 Доказательство:\
 Пусть непрерывная функция $f(x)$ не является ограниченной на $[a, b]$\
-$\forall r \in \N \exists x_n \in [a, b] \implies |f(x_n)| \ge n$\
+$\forall n \in \N \exists x_n \in [a, b] \implies |f(x_n)| \ge n$\
 Пусть $x_{n_k}$ - соходящаяся подпоследовательсть $x_n$\
 $\underset{n_k\to\infin} x_{n_k} = x^* \in [a, b]$\
 $\underset{n_k\to\infin}{\lim} f(x_{n_k}) = f(x^*)$\
