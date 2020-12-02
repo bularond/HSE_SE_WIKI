@@ -2,7 +2,7 @@
 title: 11. Теорема Эйлера
 description: 
 published: 1
-date: 2020-12-02T11:22:07.605Z
+date: 2020-12-02T11:23:34.837Z
 tags: 
 editor: markdown
 dateCreated: 2020-12-02T11:22:07.605Z
@@ -47,7 +47,7 @@ $$
 \frac{z_1}{z_2} = \frac{z_1 \cdot \bar{z_2}}{z_2\cdot \bar{z_2}} = \frac{z_1 \cdot \bar{z_2}}{|z_2|^2}
 $$
 
-т. е. свели деление к умножению на $\frac{\bar{z_2}}{|z_2|^2}$
+т. е. свели деление к умножению на $\frac{\bar{z_2}}{|z_2|^2} {}$
 
 2)
 $$
@@ -146,7 +146,7 @@ a_n z^n + a_{n-1}z^{n-1} + \dots + a_1 z + a_0 = 0 \\
 a_i \in \mathbb{C}, a_n \not=0
 $$
 
-$\exists$ кореть $z_0 \in \mathbb{C}$
+$\exists$ корень $z_0 \in \mathbb{C} {}$
 
 **Следствие** У мношочлена $P_n(z)$ степени $n, n \in \N$ есть ровно $n$ корней (с учетом кратности)
 
