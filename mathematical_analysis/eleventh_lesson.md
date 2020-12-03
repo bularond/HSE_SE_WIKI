@@ -2,7 +2,7 @@
 title: 11. Дифференцирование функции заданой параметрически, заданой неявно
 description: 
 published: 1
-date: 2020-11-25T17:30:13.941Z
+date: 2020-12-03T09:40:02.125Z
 tags: 
 editor: markdown
 dateCreated: 2020-11-24T11:25:38.671Z
@@ -16,7 +16,7 @@ $t \in [a, b]; \begin{cases}
     x = x(t) \\
     y = y(t)
 \end{cases} \\
-x_t',y_t',x_t' = 0 \quad x(t)$ возрвстает (убывает)
+x_t',y_t',x_t' = 0 \quad x(t)$ возрастает (убывает)
 
 $x(a) = A; x(b) = B$
 
