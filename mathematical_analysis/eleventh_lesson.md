@@ -2,7 +2,7 @@
 title: 11. Дифференцирование функции заданой параметрически, заданой неявно
 description: 
 published: 1
-date: 2020-12-03T09:57:27.586Z
+date: 2020-12-03T10:44:10.303Z
 tags: 
 editor: markdown
 dateCreated: 2020-11-24T11:25:38.671Z
@@ -80,7 +80,7 @@ f(x + \Delta x) \approx f(x) + f'(x) \Delta x \\
 $\sqrt{0.9} \approx ? \quad f(x) = \sqrt{x} \\
 x_0 = 1 \quad dx = \Delta x = 0.9 - 1 = -0.1 \\
 f'(x) = \frac{1}{2\sqrt{x}}; f'(x_0) = \frac{1}{2} \\
-\sqrt{0.9} \approx f(1) + \frac{1}{2} dx = 1 + \frac{1}{2} (-0.1) = 0.95$
+\sqrt{0.9} \approx f(x_0) + df = f(x_0) + f'(x_0)dx = f(1) + \frac{1}{2} dx = 1 + \frac{1}{2} (-0.1) = 0.95$
 
 ---
 
