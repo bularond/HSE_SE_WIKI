@@ -2,7 +2,7 @@
 title: 09. Аналитическая алгебра
 description: 
 published: 1
-date: 2020-12-03T13:30:39.244Z
+date: 2020-12-03T14:12:59.306Z
 tags: 
 editor: markdown
 dateCreated: 2020-11-26T00:20:48.545Z
@@ -10,9 +10,7 @@ dateCreated: 2020-11-26T00:20:48.545Z
 
 # Аналитическая геометрия
 
-> Тут все сломалось, я работаю над этим
-{.is-danger}
-
+Изображения на вики сломались, пока можете смотреть [здесь](https://github.com/bularond/HSE_SE_WIKI/blob/master/algebra/nineth_lesson.md)
 
 > Под катом изображений на 18 мб
 {.is-warning}
