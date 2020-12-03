@@ -2,7 +2,7 @@
 title: 11. Дифференцирование функции заданой параметрически, заданой неявно
 description: 
 published: 1
-date: 2020-12-03T09:40:02.125Z
+date: 2020-12-03T09:57:27.586Z
 tags: 
 editor: markdown
 dateCreated: 2020-11-24T11:25:38.671Z
@@ -70,7 +70,7 @@ a^2 y_0 y - a^2 y_0^2 = -b^2x_0 x + b^2x_0^2; a^2y_0 y + b^2x_x = b^2x_0^2 + \fr
 $f$ диф в т. $x$ 
 
 $f(x + \Delta x) = f(x) + f'(x) \cdot \Delta x + 0(\Delta x), \Delta x \to 0 \\
-f(x + \delta x) \approx f(x) + f'(x) \Delta x \\
+f(x + \Delta x) \approx f(x) + f'(x) \Delta x \\
 \Delta x = dx \quad \Delta f \approx f'(x) dx$
 
 **Определение** $df = f'(x) dx$ - зависит от $x$ и $dx$
