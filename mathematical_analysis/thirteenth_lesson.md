@@ -2,7 +2,7 @@
 title: 13. Правила Лопиталя.
 description: 
 published: 1
-date: 2020-12-12T12:43:36.356Z
+date: 2020-12-12T12:45:33.904Z
 tags: 
 editor: markdown
 dateCreated: 2020-12-12T12:13:38.435Z
@@ -59,22 +59,16 @@ $\underset{x\to+\infty}{\lim} \frac{f(x)}{g(x)} = \underset{y\to+0}{\lim} \frac{
 
 $\underset{x\to+\infty}{\lim} \frac{f(x)}{g(x)} = \underset{x\to+\infty}{\lim} \frac{f'_x(x)}{g'_x(x)}\thinspace$
 
-<style>
-  .sorry{
-    padding: 30px 0;
+
+<div class="sorry" style="
+   padding: 30px 0;
   	width:100%;
     display:flex;
     justify-content:space-evenly;
     align-items:center;
-    font-size:2em;
-  }
-  .sorry>div{
-  	text-align:center;
-  }
-</style>
-<div class="sorry">
+    font-size:2em;">
   <img src="https://cdn.betterttv.net/emote/5fb274372d853564472d95e6/3x">
-  <div >Может быть допишу до конца</div>
+  <div style="text-align:center;">Может быть допишу до конца</div>
   <img src="https://cdn.betterttv.net/emote/5fb274372d853564472d95e6/3x">
 </div>
 <br>
