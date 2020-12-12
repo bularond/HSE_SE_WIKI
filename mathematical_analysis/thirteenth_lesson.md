@@ -2,7 +2,7 @@
 title: 13. Правила Лопиталя.
 description: 
 published: 1
-date: 2020-12-12T12:13:38.435Z
+date: 2020-12-12T12:37:14.132Z
 tags: 
 editor: markdown
 dateCreated: 2020-12-12T12:13:38.435Z
@@ -31,6 +31,31 @@ $\frac{f(x)}{g(x)} = \frac{f(x)-f(a)}{f(x)-g(a)} = \frac{f'(\phi(x))}{g'(\phi(x)
 То есть для $\underset{x\to a-}{\lim}\thinspace$
 2. Аналогичное утверждение справедливо для $\underset{x\to a}{\lim}\thinspace$
 
+**Дополнение**
+$f(x), g(x)$
+1. $f, g$ непрерывны на $[a;+\infty)$, $a>0$
+2. $f', g'$ существуют на $(a;+\infty)$
+3. $g'(x)\not = 0$, $x\in(a;+\infty)$
+4. $\underset{x\to+\infty}{\lim} f(x) = \underset{x\to+\infty}{\lim} g(x) = 0$
 
+Если $\underset{x\to+\infty}{\lim} \frac{f'(x)}{g'(x)} = A$, то $\underset{x\to+\infty}{\lim} \frac{f(x)}{g(x)} = A$ ($A$ - число или $\pm\infty$)
 
+**Доказательство**
+
+$y = \frac{1}{x}$, $y\in(0;\frac{1}{a})$
+$\underset{x\to+\infty}{\lim} f(x) = \underset{y\to+0}{\lim} f(\frac{1}{y}) = 0$
+Аналогично $\underset{y\to+0}{\lim} g(\frac{1}{y}) = 0$
+
+$f(\frac{1}{y}), g(\frac{1}{y})$ дифференцируемы, когда $y\in (0;\frac{1}{a})$
+$\big(g(\frac{1}{y})\big)'_y = g'_y(\frac{1}{y})\cdot (-\frac{1}{y^2})$
+$\begin{cases}
+g'_y(\frac{1}{y}) \not =0 \\
+(-\frac{1}{y^2}) \not =0
+\end{cases} \Rightarrow
+g'_y(\frac{1}{y})\cdot (-\frac{1}{y^2}) \not=0
+$
+
+$\underset{x\to+\infty}{\lim} \frac{f(x)}{g(x)} = \underset{y\to+0}{\lim} \frac{f(\frac{1}{y})}{g(\frac{1}{y})} = \underset{y\to+0}{\lim} \frac{f'_x(\frac{1}{y})\cdot(-\frac{1}{y^2})} {g'_x(\frac{1}{y})\cdot(-\frac{1}{y^2})} = \underset{y\to+0}{\lim} \frac{f'_x(\frac{1}{y})} {g'_x(\frac{1}{y})} = \underset{x\to+\infty}{\lim} \frac{f'_x(x)}{g'_x(x)} \Rightarrow$
+
+$\underset{x\to+\infty}{\lim} \frac{f(x)}{g(x)} = \underset{x\to+\infty}{\lim} \frac{f'_x(x)}{g'_x(x)}$
 <br><br><br><br><br>
