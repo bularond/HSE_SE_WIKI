@@ -2,73 +2,145 @@
 title: 13. Правила Лопиталя.
 description: 
 published: 1
-date: 2020-12-12T12:45:33.904Z
+date: 2020-12-15T01:37:02.393Z
 tags: 
 editor: markdown
 dateCreated: 2020-12-12T12:13:38.435Z
 ---
 
-# Первое правило Лопиталя (Неопределенность вида $\frac{0}{0}\thinspace$)
+# Правило Лопиталя
 
-Имеем:
+## Первое правило Лопиталя (неопределенность вида 0/0)
+**Теорема** $f(x), g(x)$
+1. $f, g$ непрерыны на $x \in [a, b]$
+2. $f, g$ дифференцируемы в $(a, b)$
+3. $\underset{x\to a+}{\lim} f(x) = \underset{x\to a+}{\lim} g(x) = 0$
+
+Если 
+
+$$
+\lim_{x\to0+} \frac{f'(x)}{g'(x)} = A
+$$
+
+то 
+
+$$
+\lim_{x\to0+} \frac{f(x)}{g(x)} = A
+$$
+
+**Доказательство** положим $f(a) = g(a) = 0$; $f(x), g(x)$ непрерывны на $[a, b]$
+
+$$
+\frac{f(x)}{g(a)} = \frac{f(x) - f(a)}{g(x) - g(a)} = \frac{f'(\xi(x))}{g'(\xi(x))} = A \implies \lim_{x\to b+} \frac{f(x)}{g(x)} = A
+$$
+
+Замечания
+
+1. Аналогичное утверждение справедливо для $x \in [b, a), b < a$, то есть для $\underset{x \to b-}{\lim}$
+2. Аналогичное утверждение справедливо для $\underset{x\to a}{\lim}$
+
+$$
+\lim_{x\to0} \frac{\tg x - x}{x^3} = \lim_{x\to0} \frac{\frac{1}{\cos^2 x} - 1}{3x^2} = \lim_{x\to0} \frac{1 - \cos^2x}{cos^2x - 3x^2} = \lim_{x\to0} \frac{1 - \cos^2 x}{3x^2} = \lim_{x\to0} \frac{2\sin x \cos x}{6x} = \frac{1}{3}
+$$
+
+**Дополнение** $f(x), g(x)$
+
+1. $f, g$ непрерывны на $[a, +\infin), a > 0$
+2. $f', g'$ существует на $(a, +\infin)$
+3. $g'(x) \not= 0, x \in (a, +\infin)$
+4. $\underset{x\to+\infin}{\lim} \frac{f'(x)}{g'(x)} = A$, то $\underset{x\to+\infin}{\lim} \frac{f(x)}{g(x)} = A$
+
+Если
+$$
+\lim_{x\to\infin+} \frac{f'(x)}{g'(x)} = A
+$$
+
+то
+
+$$
+\lim_{x\to+\infin} \frac{f(x)}{g(x)} = A
+$$
+
+**Доказательство** $y = \frac{1}{x}; y \in (0, \frac{1}{x}) \quad \underset{x\to+\infin}{\lim} f(x) = \underset{y\to0+}{\lim} f\left(\frac{1}{y}\right)$, аналогично $\underset{y\to0+}{\lim} g\left(\frac{1}{y}\right) = 0$
+
+$f\left(\frac{1}{y}\right); g\left(\frac{1}{y}\right)$ дифференцируемо $y \in (0, \frac{1}{a})$
+
+$$
+\left(g\left(\frac{1}{y}\right)\right)'_y = \left(g'_x\left(\frac{1}{y}\right)\right) \cdot \left(-\frac{1}{y^2}\right) \not= 0 \\
+\lim_{x\to+a} \frac{f(x)}{g(x)} = \lim_{y\to0+} \frac{f(1/y)}{g(1/y)} = \lim_{y\to0+} = \lim_{y\to0+} \frac{f'_x(1/y)(-1/y^2)}{g'_x(1/y)(-1/y^2)} = \lim_{x\to+\infin} \frac{f'(x)}{g'(x)}
+$$
+
+## Второе правило Лопиталя (неопределенность вида $\infin/\infin$)
+
 $f(x), g(x)$
-1. $f,g$ непрерывны на $x\in (a;b]$
-2. $f,g$ дифференцируемы на $(a;b)$
-3. $g'(x) \not = 0$, $x\in(a;b)$ 
-4. $\underset{x\to a+}{\lim}f(x) = \underset{x\to a+}{\lim} g(x) = 0$
+1. $f, g$ непрерывны на $(a, b]$
+2. $f, g$ дифференциальны на $(a, b)$
+3. $g'(x) \not=0, x \in (a, b)$
+4. $\underset{x\to a+}{\lim} f(x) = \pm\infin; \underset{a+} g(x) = \pm\infin$
 
-Если $\underset{x\to a+}{\lim} \frac{f'(x)}{g'(x)} = A$, то $\underset{x\to a+}{\lim} \frac{f(x)}{g(x)} = A$ ($A$ - число или $\pm\infty$)
+Если
+$$
+\lim_{x\to a+} \frac{f'(x)}{g'(x)} = A
+$$
+то
+$$
+\lim_{x\to a+} \frac{f(x)}{g(x)} = A
+$$
 
-**Доказательство**
-Положим, что $f(a) = g(a) = 0$
-Тогда $f(x), g(x)$ непрерывны на $[a;b]$
-Выполняются условия теоремы Коши.
+## Многочлен Тейлора
 
-$\frac{f(x)}{g(x)} = \frac{f(x)-f(a)}{f(x)-g(a)} = \frac{f'(\phi(x))}{g'(\phi(x))} \Rightarrow \underset{x\to a+}{\lim} \frac{f'(\phi(x))}{g'(\phi(x))} = A = \underset{x\to a+}{\lim} \frac{f(x)}{g(x)} \thinspace$.
+$f(x); x = a$ пусть $f(a), f'(a), \dots, f^{(n)}(a)$ определено
 
-**Замечание**
-1. Аналогичное утверждение справедливо для $x\in[b,a)$, $b<a$
-То есть для $\underset{x\to a-}{\lim}\thinspace$
-2. Аналогичное утверждение справедливо для $\underset{x\to a}{\lim}\thinspace$
+**Определение**
+$$
+T_n(a) = f(a) + \frac{f'(a)}{1!} (x - a) + \frac{f''(a)'}{2!} (x - a)^2 + \dots + \frac{f^{(n)}(a)}{n!} (x - a)^n
+$$
 
-**Дополнение**
-$f(x), g(x)$
-1. $f, g$ непрерывны на $[a;+\infty)$, $a>0$
-2. $f', g'$ существуют на $(a;+\infty)$
-3. $g'(x)\not = 0$, $x\in(a;+\infty)$
-4. $\underset{x\to+\infty}{\lim} f(x) = \underset{x\to+\infty}{\lim} g(x) = 0$
+Многочлен Тейлора функции $f$ в точки $a$ порядка $n$
 
-Если $\underset{x\to+\infty}{\lim} \frac{f'(x)}{g'(x)} = A$, то $\underset{x\to+\infty}{\lim} \frac{f(x)}{g(x)} = A$ ($A$ - число или $\pm\infty$)
+**Утверждение**
+$$
+T_n(a) = f(a), T_n'(a) = f'(a), \dots, T_n^{(n)}(a) = f^{(n)}(a)
+$$
 
-**Доказательство**
+**Доказательство** $0 \le m \le n \quad T_n^{(m)}(a) = f^{(m)}(a)$
 
-$y = \frac{1}{x}$, $y\in(0;\frac{1}{a})$
-$\underset{x\to+\infty}{\lim} f(x) = \underset{y\to+0}{\lim} f(\frac{1}{y}) = 0$
-Аналогично $\underset{y\to+0}{\lim} g(\frac{1}{y}) = 0$
+$k < m \quad \left(\frac{f^{(m)}(a)}{k!}(x - a)^k\right)'_m \equiv 0$
 
-$f(\frac{1}{y}), g(\frac{1}{y})$ дифференцируемы, когда $y\in (0;\frac{1}{a})$
-$\big(g(\frac{1}{y})\big)'_y = g'_y(\frac{1}{y})\cdot (-\frac{1}{y^2})$
-$\begin{cases}
-g'_y(\frac{1}{y}) \not =0 \\
-(-\frac{1}{y^2}) \not =0
-\end{cases} \Rightarrow
-g'_y(\frac{1}{y})\cdot (-\frac{1}{y^2}) \not=0
-$
+$k = m \quad \left(\frac{f^{(n)}(a)}{k!} (x - a)^k\right)'_m = f^{(m)}(a)$
 
-$\underset{x\to+\infty}{\lim} \frac{f(x)}{g(x)} = \underset{y\to+0}{\lim} \frac{f(\frac{1}{y})}{g(\frac{1}{y})} = \underset{y\to+0}{\lim} \frac{f'_x(\frac{1}{y})\cdot(-\frac{1}{y^2})} {g'_x(\frac{1}{y})\cdot(-\frac{1}{y^2})} = \underset{y\to+0}{\lim} \frac{f'_x(\frac{1}{y})} {g'_x(\frac{1}{y})} = \underset{x\to+\infty}{\lim} \frac{f'_x(x)}{g'_x(x)} \Rightarrow$
+$k > m \quad \left(\frac{f^{(m)}(a)}{k!}(x - a)^m\right)'_m = \frac{f^{(m)}(a)}{k!} k (k-1)\dots(k - m + 1)(x-a) = 0$ при $x = a$
 
-$\underset{x\to+\infty}{\lim} \frac{f(x)}{g(x)} = \underset{x\to+\infty}{\lim} \frac{f'_x(x)}{g'_x(x)}\thinspace$
+---
 
+$R_n(x) = f(x) - T_n(x)$ - остаточный член порядка $n$
 
-<div class="sorry" style="
-   padding: 30px 0;
-  	width:100%;
-    display:flex;
-    justify-content:space-evenly;
-    align-items:center;
-    font-size:2em;">
-  <img src="https://cdn.betterttv.net/emote/5fb274372d853564472d95e6/3x">
-  <div style="text-align:center;">Может быть допишу до конца</div>
-  <img src="https://cdn.betterttv.net/emote/5fb274372d853564472d95e6/3x">
-</div>
-<br>
+$\boxed{R_n(a) = R'_n(a) = \dots = R_n^{(n)}(a) = 0}$
+
+$f(x) = T_n(x) + R_n(x)$
+
+**Теорема** $f(x)$ имеют в т. $a$ производную порядка $k$, тогда
+
+$$
+f(x) = f(a) + \frac{f'(a)}{1!} (x - a) + \dots + \frac{f^{n}(a)}{n!}(x - a)^n + o((x - )^n)
+$$
+(Локальная формула Тейлора)
+
+**Доказательство** применим правило Лопиталя $(n - 1)$ раз
+
+$\underset{x \to a}{\lim} \frac{R_n(x)}{(x - a)^n} = \underset{x \to a}{\lim} \frac{R'_n(x)}{n(x - a)^{n-1}} = \dots = \underset{x \to a}{\lim} \frac{R^{n-1}}{n(x-a)} {}$
+
+## Асимптотика представления основных элементарных функций
+
+> Всюду $\boxed{x \to 0} {}$
+
+1. $f(x) = e^x, f^{(k)}(x) = e^x; f^{(k)}(0) = 1, k = 0, 1, 2, \dots \\
+e^x = 1 + \frac{x}{1!} + \frac{x^2}{2!} + \frac{x^3}{3!} + \dots + \frac{x^n}{n!} + o(x^n)$
+
+2. $f(x) = \ln(1 + x); f(0) = 0, (\ln(1 + x))^{(k)} = \frac{(-1)^{k-1}(k - 1)!}{(1 + x)^n}; f^{(k)}(0) = (-1)^{k-1} (k-1)!, k=1,2,\dots\\
+\frac{f^{(n)}(0)}{k!} = \frac{(-1)^{k-1}!}{k!} = \frac{(-1)^{k-1}}{k} \\
+\ln(1+x) = x - \frac{x^2}{2} + \frac{x^3}{3} - \frac{x^4}{4} + \dots + (-1)^{n-1} \frac{x^n}{n} o(x^n)$
+
+3. $f(x) = (1 + x)^\alpha; f(0) = 1, ((1 + x)^\alpha)^{(n)} = \alpha (\alpha - 1)\dots(\alpha - k + 1)(1 + x)^{\alpha - k} \\
+f^{(n)}(0) = \alpha(\alpha - 1) \dots (\alpha - k + 1), k = 1,2,\dots \\
+(1 + x)^\alpha = 1 + \alpha x + \frac{\alpha(\alpha - 1)}{2!} x^2 + \frac{\alpha (\alpha - 1)(\alpha - 2)}{3!} x^3 + \dots + \frac{\alpha(\alpha - 1)\dots(\alpha - n + 1)}{n!} x^n + o(x^n)$
