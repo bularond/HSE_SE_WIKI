@@ -2,7 +2,7 @@
 title: 13. Правила Лопиталя и ряд Тейлора
 description: 
 published: 1
-date: 2020-12-15T01:37:48.710Z
+date: 2020-12-15T08:55:29.582Z
 tags: 
 editor: markdown
 dateCreated: 2020-12-12T12:13:38.435Z
@@ -36,8 +36,8 @@ $$
 
 Замечания
 
-1. Аналогичное утверждение справедливо для $x \in [b, a), b < a$, то есть для $\underset{x \to b-}{\lim}$
-2. Аналогичное утверждение справедливо для $\underset{x\to a}{\lim}$
+1. Аналогичное утверждение справедливо для $x \in [b, a), b < a$, то есть для $\underset{x \to b-}{\lim}\thinspace$
+2. Аналогичное утверждение справедливо для $\underset{x\to a}{\lim}\thinspace$
 
 $$
 \lim_{x\to0} \frac{\tg x - x}{x^3} = \lim_{x\to0} \frac{\frac{1}{\cos^2 x} - 1}{3x^2} = \lim_{x\to0} \frac{1 - \cos^2x}{cos^2x - 3x^2} = \lim_{x\to0} \frac{1 - \cos^2 x}{3x^2} = \lim_{x\to0} \frac{2\sin x \cos x}{6x} = \frac{1}{3}
