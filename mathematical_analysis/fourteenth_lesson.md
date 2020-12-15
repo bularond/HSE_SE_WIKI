@@ -1,8 +1,8 @@
 ---
-title: Продолжаем формулу Тейлора
+title: 14. Продолжаем формулу Тейлора
 description: 
 published: 1
-date: 2020-12-15T11:19:51.368Z
+date: 2020-12-15T11:21:08.447Z
 tags: 
 editor: markdown
 dateCreated: 2020-12-15T11:19:51.368Z
@@ -38,16 +38,16 @@ $$
 f(x) = f(a) + \frac{f'(a)}{1!}(x - a) + \dots + \frac{f^{(n)}(a)}{n!}(x - a)^n + \underbrace{\frac{f^{(n + 1)}(\xi)}{(n+1)!}(x - a)^{n+1}}_{\text{Остаточныйй член в форме Лагранжа}}
 $$
 
-**Доказательство** пусть $g(x) = (x - a)^{n + 1}, g(a) = g'(a) = \dots = g^{(n)}(a) = 0$
+**Доказательство** пусть $g(x) = (x - a)^{n + 1}, g(a) = g'(a) = \dots = g^{(n)}(a) = 0 {}$
 
 если $x \not= a; g^{(n)}(x) \not= 0, 0 \le k \le n$
 
 $\frac{R_n(x)}{(x - a)^{n+1}} = \frac{R_n(x)}{g(x)} = \frac{R_n(x) - R_n(a)}{R(x) - g(a)} = \frac{R'_n(\xi_1) - R'_n(a)}{g'(\xi_1) - g'(a)} = \frac{R''_n(\xi_2)}{g''(\xi_2)} = \dots = \frac{R^{(n)}}{g^{(n)}(\xi_n)} = \\
-= \frac{R^{(n+1)(\xi_{n+1})}}{(\xi_{n+1})} = \frac{R_n^{(n+1)}(\xi)}{g^{(n + 1)}(\xi)} = \frac{f^{(n + 1)}(\xi)}{(n + 1)!}$
+= \frac{R^{(n+1)(\xi_{n+1})}}{(\xi_{n+1})} = \frac{R_n^{(n+1)}(\xi)}{g^{(n + 1)}(\xi)} = \frac{f^{(n + 1)}(\xi)}{(n + 1)!} {}$
 
-Обозначим $\xi = \xi_{n + 1}$
+Обозначим $\xi = \xi_{n + 1} {}$
 
-$R_n(x) = \frac{f^{(n+1)}(\xi)}{(n + 1)!}(x - a)^{n + 1}$
+$R_n(x) = \frac{f^{(n+1)}(\xi)}{(n + 1)!}(x - a)^{n + 1} {}$
 
 # Примеры решения задач
 
