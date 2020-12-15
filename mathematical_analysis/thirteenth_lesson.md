@@ -1,8 +1,8 @@
 ---
-title: 13. Правила Лопиталя.
+title: 13. Правила Лопиталя и ряд Тейлора
 description: 
 published: 1
-date: 2020-12-15T01:37:02.393Z
+date: 2020-12-15T01:37:48.710Z
 tags: 
 editor: markdown
 dateCreated: 2020-12-12T12:13:38.435Z
