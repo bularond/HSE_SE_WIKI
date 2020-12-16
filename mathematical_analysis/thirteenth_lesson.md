@@ -2,7 +2,7 @@
 title: 13. Правила Лопиталя и ряд Тейлора
 description: 
 published: 1
-date: 2020-12-15T08:55:29.582Z
+date: 2020-12-16T12:44:39.769Z
 tags: 
 editor: markdown
 dateCreated: 2020-12-12T12:13:38.435Z
@@ -122,7 +122,7 @@ $f(x) = T_n(x) + R_n(x)$
 **Теорема** $f(x)$ имеют в т. $a$ производную порядка $k$, тогда
 
 $$
-f(x) = f(a) + \frac{f'(a)}{1!} (x - a) + \dots + \frac{f^{n}(a)}{n!}(x - a)^n + o((x - )^n)
+f(x) = f(a) + \frac{f'(a)}{1!} (x - a) + \dots + \frac{f^{n}(a)}{n!}(x - a)^n + o((x - a )^n)
 $$
 (Локальная формула Тейлора)
 
