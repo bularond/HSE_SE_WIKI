@@ -2,7 +2,7 @@
 title: 13. Продолжение теории груп
 description: 
 published: 1
-date: 2020-12-16T11:59:01.997Z
+date: 2020-12-16T19:42:57.432Z
 tags: 
 editor: markdown
 dateCreated: 2020-12-16T11:59:01.997Z
@@ -95,7 +95,7 @@ $\det(\underbrace{A \cdot B}_\text{умножение матриц}) = \underbra
 Обозначение: $G_1 \simeq G_2$ или $G_1 \cong G_2$
 
 **Свойства гомоморфизма**:
-1. "Еденица" переходит в "еденицу"
+1. "Единица" переходит в "единицу"
 
 $\square \forall a \in G: e * a = a * e = a \implies f(a) f(e * a) = f(e) \circ f(a) = f(a) \\
 f(a) \circ f(e) \implies f(e) = e' \in G_2 \blacksquare$
