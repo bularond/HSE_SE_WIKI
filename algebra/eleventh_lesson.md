@@ -2,7 +2,7 @@
 title: 11. Теорема Эйлера
 description: 
 published: 1
-date: 2020-12-20T13:55:32.102Z
+date: 2020-12-20T13:57:10.070Z
 tags: 
 editor: markdown
 dateCreated: 2020-12-02T11:22:07.605Z
@@ -107,7 +107,7 @@ $$
 
 То есть нужно найти все $z: w$. Пусть $z = r(\cos\varphi + i\sin\varphi)$
 
-По формуле Мудавра:
+По формуле Муавра:
 
 $
 z^n = r^n (\cos(n\varphi) + i\sin(n\varphi)) \\
