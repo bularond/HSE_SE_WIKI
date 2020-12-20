@@ -2,7 +2,7 @@
 title: 11. Теорема Эйлера
 description: 
 published: 1
-date: 2020-12-18T23:43:33.708Z
+date: 2020-12-20T13:55:32.102Z
 tags: 
 editor: markdown
 dateCreated: 2020-12-02T11:22:07.605Z
@@ -69,7 +69,7 @@ $$
 \pm & \\
 &e^{i\varphi} = \cos\varphi + i \sin\varphi
 \end{array} \implies \\
-\implies \cos\varphi - \frac{e^{i\varphi} + e^{-i\varphi}}{z}, \sin\varphi = \frac{e^{i\varphi} - e^{-i\varphi}}{zi}
+\implies \cos\varphi = \frac{e^{i\varphi} + e^{-i\varphi}}{2}, \sin\varphi = \frac{e^{i\varphi} - e^{-i\varphi}}{2i}
 $$
 
 **Утверждение** (формула Муавра)
