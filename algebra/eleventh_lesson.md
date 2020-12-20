@@ -2,7 +2,7 @@
 title: 11. Теорема Эйлера
 description: 
 published: 1
-date: 2020-12-20T13:57:10.070Z
+date: 2020-12-20T13:58:35.286Z
 tags: 
 editor: markdown
 dateCreated: 2020-12-02T11:22:07.605Z
@@ -125,7 +125,7 @@ $
 Достаточно рассмотреть только $k = 0, 1, 2, \dots, n-1$. Их ровно $n$ шутк $\implies$
 
 $$
-\sqrt[n]{w} = \{z = \sqrt[n]{\rho} \cdot (\cos(\frac{\psi + 2\pi k}{n}) + i\sin(\frac{\psi + 2\pi k}{n})) | k = \overline{0,n-1}\}
+\sqrt[n]{w} = \left\{z = \sqrt[n]{\rho} \cdot (\cos\left(\frac{\psi + 2\pi k}{n}\right) + i\sin\left(\frac{\psi + 2\pi k}{n}\right)) | k = \overline{0,n-1}\right\}
 $$
 
 **Пример** $\sqrt[6]{1} - ?$
