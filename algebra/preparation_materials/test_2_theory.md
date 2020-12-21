@@ -2,7 +2,7 @@
 title: 2. ФСР, ангем, теория групп
 description: 
 published: 1
-date: 2020-12-20T17:52:05.769Z
+date: 2020-12-21T01:58:36.069Z
 tags: 
 editor: markdown
 dateCreated: 2020-12-20T17:15:28.983Z
@@ -209,7 +209,7 @@ $
 
 $
 z^{n+1} = z^n \cdot z = r^n (\cos n \varphi + i \sin n \varphi) \cdot r (\cos \varphi + i \sin \varphi) = \\
-= r^{n + 1} (\cos n \varphi \cos \varphi + i \cos \varphi \sin \varphi + i \cos n \varphi \sin n \varphi - \sin \varphi \sin n \varphi) = \\
+= r^{n + 1} (\cos n \varphi \cos \varphi + i \cos n \varphi \sin \varphi + i \cos \varphi \sin n \varphi - \sin \varphi \sin n \varphi) = \\
 = r^{n + 1} (\cos((n + 1) \varphi) + i \sin((n + 1) \varphi))
 $
 
