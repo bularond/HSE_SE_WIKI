@@ -2,7 +2,7 @@
 title: 13. Продолжение теории груп
 description: 
 published: 1
-date: 2020-12-22T12:24:05.910Z
+date: 2020-12-22T19:05:27.954Z
 tags: 
 editor: markdown
 dateCreated: 2020-12-16T11:59:01.997Z
@@ -118,4 +118,4 @@ $g^n \xrightarrow[]{f} n = f(g^n) \in \Z$ это биекция и $f(g^m \cdot 
 Если $G = \{e, g, g^2, \dots, g^{q - 1}\} \\
 G' = \{e', g', \dots, (g')^{q - 1}\}$?
 
-то $f: g^k \xleftarrow[]{} (g')^k, k = 0, \dots, q^{-1}$ - это биекция и изоморфизм
+то $f: g^k \xrightarrow[]{} (g')^k, k = 0, \dots, q^{-1}$ - это биекция и изоморфизм
