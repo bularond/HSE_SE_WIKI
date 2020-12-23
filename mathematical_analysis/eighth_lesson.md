@@ -2,7 +2,7 @@
 title: 08. Свойства функций, непрерывных на отрезке
 description: 
 published: 1
-date: 2020-12-02T17:40:16.230Z
+date: 2020-12-23T10:02:03.038Z
 tags: 
 editor: markdown
 dateCreated: 2020-11-03T13:13:06.678Z
@@ -57,7 +57,7 @@ $f(c) = C$
 $
 x^{2k+1} + a_{2k} x^{2k} + \dots + a_0 = 0 \\
 f(x) = x^{2k+1} + a_{2k}x^{2k} + \dots + a_0 = x^{2k+1}(1+ \frac{a_{2k}}{x} + \dots + \frac{a_0}{x^{2k+1}}) \\
-\underset{x\to+\infin}{\lim} f(x) = +\infin; \underset{x\to+\infin}{\lim} f(x) = -\infin \\
+\underset{x\to+\infin}{\lim} f(x) = +\infin; \underset{x\to-\infin}{\lim} f(x) = -\infin \\
 \exists \alpha, \beta \quad \alpha < \beta: f(\alpha) < 0; f(\beta) > 0 \\
 \implies \exists c \in (\alpha, \beta) \implies f(c) = 0
 $
