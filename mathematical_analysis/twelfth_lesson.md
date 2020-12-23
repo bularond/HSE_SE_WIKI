@@ -2,7 +2,7 @@
 title: 12. Теоремы дифференциального исчесления
 description: 
 published: 1
-date: 2020-12-08T12:23:34.238Z
+date: 2020-12-23T10:42:06.686Z
 tags: 
 editor: markdown
 dateCreated: 2020-12-01T11:50:53.501Z
@@ -41,7 +41,7 @@ $x_0$ - точка $\text{locmin}$ или $\text{locmax}$, то $x_0$ точка
 
 Пусть $x_0 - \text{locmin}$.
 
-$f(x_0 + \Delta x) - f(x_0) = f'(x_0) \cdot \Delta x + \overline{o}(\Delta x) = f'(x_0) \cdot \Delta x + \alpha (\Delta x) \cdot \Delta x; \alpha (\Delta x) \xrightarrow[\Delta x \to 0]{} 0$
+$f(x_0 + \Delta x) - f(x_0) = f'(x_0) \cdot \Delta x + \bar {o}(\Delta x) = f'(x_0) \cdot \Delta x + \alpha (\Delta x) \cdot \Delta x; \alpha (\Delta x) \xrightarrow[\Delta x \to 0]{} 0$
 
 $f(x_0 + \Delta x) - f(x_0) = \Delta x [f'(x_0) + \alpha(\Delta x)]$
 
