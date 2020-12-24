@@ -2,7 +2,7 @@
 title: 2. ФСР, ангем, теория групп
 description: 
 published: 1
-date: 2020-12-21T14:24:37.125Z
+date: 2020-12-24T17:07:00.227Z
 tags: 
 editor: markdown
 dateCreated: 2020-12-20T17:15:28.983Z
@@ -74,7 +74,7 @@ $
 Вынесем скаляры за скобки
 
 $
-a_1 b_1 (\vec e_1, \vec e_1) + a_1 b_2 (\vec a_1, \vec e_2) + \dots + a_3 b_3 (\vec e_3, \vec e_3)
+a_1 b_1 (\vec e_1, \vec e_1) + a_1 b_2 (\vec e_1, \vec e_2) + \dots + a_3 b_3 (\vec e_3, \vec e_3)
 $
 
 Группируя слагаемые получим умножение следующих матриц по определению:
