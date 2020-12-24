@@ -2,7 +2,7 @@
 title: 2. ФСР, ангем, теория групп
 description: 
 published: 1
-date: 2020-12-24T17:07:00.227Z
+date: 2020-12-24T17:07:18.404Z
 tags: 
 editor: markdown
 dateCreated: 2020-12-20T17:15:28.983Z
