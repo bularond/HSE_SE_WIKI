@@ -2,7 +2,7 @@
 title: 02. Числовые последовательности
 description: 
 published: 1
-date: 2020-11-17T22:23:57.501Z
+date: 2020-12-25T18:25:29.399Z
 tags: 
 editor: markdown
 dateCreated: 2020-09-15T12:07:27.085Z
@@ -59,7 +59,7 @@ $$
 
 ---
 
-$a$ - вечественное число, $\varepsilon > 0$
+$a$ - вещественное число, $\varepsilon > 0$
 $O_\varepsilon (a)$ - $\varepsilon$ окрестность точки $a$
 
 $$
