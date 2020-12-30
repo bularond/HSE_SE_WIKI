@@ -2,7 +2,7 @@
 title: Главная
 description: 
 published: 1
-date: 2020-11-27T16:47:41.374Z
+date: 2020-12-30T14:00:23.376Z
 tags: 
 editor: markdown
 dateCreated: 2020-09-09T19:44:34.272Z
@@ -37,5 +37,6 @@ dateCreated: 2020-09-09T19:44:34.272Z
 - Qiwi: [сслыка](https://qiwi.com/payment/form/99?extra[%27account%27]=79855218196)
 - Я.Деньги: 410014903867809
 
-$$\text{На роутер}\\ 2667₽ / 4000₽$$
+$$\sout{\text{На роутер }\\ 4000₽ / 4000₽} \\
+\text{На ебуку} 213₽$$
   
