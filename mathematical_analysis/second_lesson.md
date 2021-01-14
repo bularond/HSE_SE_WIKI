@@ -2,7 +2,7 @@
 title: 02. Числовые последовательности
 description: 
 published: 1
-date: 2021-01-14T09:58:25.250Z
+date: 2021-01-14T10:18:44.473Z
 tags: 
 editor: markdown
 dateCreated: 2020-09-15T12:07:27.085Z
@@ -163,7 +163,7 @@ $$
 > $$
 
 ## Бесконечно малые (б.м.) последовательности
-**Опр** $\{x_n\}$ б.м. последовательность, если $\lim_{n\to\infin} x_n = 0$
+**Опр** $\{x_n\}$ б.м. последовательность, если $\underset{n\to\infin}{\lim} x_n = 0$
 
 Пример $\underset{n\to\infin}{\lim} x_n = a \iff \underset{n\to\infin}{\lim}(x_n - a) = 0$, т.е. $(x_n - a)$ - б.м. последовательность
 
