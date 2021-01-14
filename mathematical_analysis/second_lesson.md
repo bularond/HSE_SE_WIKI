@@ -2,7 +2,7 @@
 title: 02. Числовые последовательности
 description: 
 published: 1
-date: 2020-12-25T18:59:09.520Z
+date: 2021-01-14T09:58:25.250Z
 tags: 
 editor: markdown
 dateCreated: 2020-09-15T12:07:27.085Z
@@ -93,7 +93,7 @@ $\underset{n\to\infin}{\lim} x_n = a$
 Сходящаяся последовательность имеет единственный предел.
 
 **Доказательство** (от противного)
-пусть $\underset{n\to\infin}{\lim} x_n = a_1; \lim_{n\to\infin} x_n = a_2, a_1 < a_2$
+пусть $\underset{n\to\infin}{\lim} x_n = a_1; \underset{n\to\infin}{\lim} x_n = a_2, a_1 < a_2$
 
 $$
 \varepsilon = \frac{a_2 - a_1}{3} > 0
