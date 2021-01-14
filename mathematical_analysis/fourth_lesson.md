@@ -2,7 +2,7 @@
 title: 04. Пределы функций
 description: 
 published: 1
-date: 2020-11-17T22:24:54.513Z
+date: 2021-01-14T10:53:02.425Z
 tags: 
 editor: markdown
 dateCreated: 2020-09-29T11:22:06.964Z
@@ -57,7 +57,7 @@ $$
 $a$ - предел точки последовательности $X$, если $\exists$ последовательность $x_n \in X (x_n + a)$ такая, что $x_n \xrightarrow[n\to\infin]{} a$
 
 Пример $X = (0, 1)$
-1) $a\in(0,1) \quad x_n = a \frac{a}{n+1} \implies a$ а предельная точка $X$
+1) $a\in(0,1) \quad x_n = a \frac{a}{n+1} \implies a$ - предельная точка $X$
 2) $a=0; x_n = \frac{1}{n+1}; \frac{1}{2}, \frac{1}{3}, \dots \to a$ - предельная точка (предельная точка может не принадлежать множеству)
 
 $$
