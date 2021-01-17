@@ -2,20 +2,20 @@
 title: 14. Примеры групп, смежные классы
 description: 
 published: 1
-date: 2021-01-13T11:29:50.918Z
+date: 2021-01-17T09:40:20.042Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-13T11:29:50.918Z
 ---
 
-**Утверждение** Пусть $G$ - группа и $g \in G$. Тогда $|<g>| = ord(g)$ ($<g>$ - циклическая группа поражденная $g$; $|G|$ - число элементов в $G$) 
+**Утверждение** Пусть $G$ - группа и $g \in G$. Тогда $|\langle g \rangle| = ord(g)$ ($\langle g \rangle$ - циклическая группа порожденная $g$; $|G|$ - число элементов в $G$) 
 
-$\square$ Заметм, что если $g^k = g^s \implies g^{k - s} = e$ (т. к. $\exists g^{-1}$) $\implies$ порядок $g \le k - s \implies$ если $g$ имеет бесконечный порядок, то все элементы $g^n, n \in \Z$ различны и $\implies <g>$ содержит бесконечно много элементов $\implies$ в бесконечном случае доказано
+$\square$ Заметим, что если $g^k = g^s \implies g^{k - s} = e$ (т. к. $\exists g^{-1}$) $\implies$ порядок $g \le k - s \implies$ если $g$ имеет бесконечный порядок, то все элементы $g^n, n \in \Z$ различны и $\implies \langle g \rangle$ содержит бесконечно много элементов $\implies$ в бесконечном случае доказано
 
-Если же $ord(g) = m$, то из минимальности $m \in \N \implies e = g^0, g = g^1, \dots, g^{m - 1}$ попарно различны. Покажем, что $<g> = \{e, g, g^1, \dots, g^{m - 1}\}$
+Если же $ord(g) = m$, то из минимальности $m \in \N \implies e = g^0, g = g^1, \dots, g^{m - 1}$ попарно различны. Покажем, что $\langle g \rangle = \{e, g, g^1, \dots, g^{m - 1}\}$
 
 $\forall n \in \Z \quad n = m \cdot q + r$, где $0 \le r < m \implies \\
-\implies g^n = g^{m \cdot q + r} = (g^m)^q \cdot g^r = e^q \cdot g^r = g^r$, где $0 \le r < m \implies <g> = \{e, g, \dots, g^{m - 1}\}$ и $|<g>| = m = ord(g) \blacksquare$
+\implies g^n = g^{m \cdot q + r} = (g^m)^q \cdot g^r = e^q \cdot g^r = g^r$, где $0 \le r < m \implies \langle g \rangle = \{e, g, \dots, g^{m - 1}\}$ и $|\langle g \rangle| = m = ord(g) \blacksquare$
 
 
 **Определение** Ядром гомоморфизма $f$ ($f: G \to F$) называется множество элементов группы $G$, которые переходят в $e_F$ (нейтральный элемент во второй группе)
@@ -34,14 +34,14 @@ $\square$ Необходимость ($\implies$)
 
 Дано: $\forall x_1 \not= x_2: f(x_1) \not= f(x_2) \implies f(e_G) = e_F$ (и для $x \in G$ и $x \not= e_G$, $f(x) \not= f(e_G) = e_F$)
 
-Достаточность:
+Достаточность ($\Longleftarrow$):
 
 Дано $Ker(f) = e_G$
 
 Предположим, что $\exists x_1 \not= x_2: f(x_1) = f(x_2)$. 
 
 Тогда $f(x_1 \cdot x_2^{-1}) = e_F = f(x_1) \cdot (f(x_2))^{-1} = f(x_1) \cdot f(x_2^{-1}) \implies \\
-\implies x_1 \cdot x_2^{-1} = e_G \iff x_1 = x_2$ противоречние $\implies f$ - мономорфизм $\blacksquare$
+\implies x_1 \cdot x_2^{-1} = e_G \iff x_1 = x_2$ противоречие $\implies f$ - мономорфизм $\blacksquare$
 
 **Определение** Таблица Кэли это матрица
 
