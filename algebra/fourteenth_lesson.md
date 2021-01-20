@@ -2,7 +2,7 @@
 title: 14. Примеры групп, смежные классы
 description: 
 published: 1
-date: 2021-01-17T10:15:35.631Z
+date: 2021-01-20T16:49:31.700Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-13T11:29:50.918Z
@@ -28,7 +28,7 @@ $$
 
 **Утверждение** Пусть $f: G \to F$ - гомоморфизм
 
-$f$ - инъективен $\iff Ker(f) = e_G$
+$f$ - инъективен $\iff Ker(f) = \{e_G\} {}$
 
 $\square$ Необходимость ($\implies$)
 
