@@ -2,7 +2,7 @@
 title: 13. Правила Лопиталя и ряд Тейлора
 description: 
 published: 1
-date: 2020-12-16T12:44:39.769Z
+date: 2021-01-20T17:29:36.288Z
 tags: 
 editor: markdown
 dateCreated: 2020-12-12T12:13:38.435Z
@@ -93,7 +93,7 @@ $f(x); x = a$ пусть $f(a), f'(a), \dots, f^{(n)}(a)$ определено
 
 **Определение**
 $$
-T_n(a) = f(a) + \frac{f'(a)}{1!} (x - a) + \frac{f''(a)'}{2!} (x - a)^2 + \dots + \frac{f^{(n)}(a)}{n!} (x - a)^n
+T_n(a) = f(a) + \frac{f'(a)}{1!} (x - a) + \frac{f''(a)}{2!} (x - a)^2 + \dots + \frac{f^{(n)}(a)}{n!} (x - a)^n
 $$
 
 Многочлен Тейлора функции $f$ в точки $a$ порядка $n$
