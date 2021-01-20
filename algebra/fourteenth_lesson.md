@@ -2,7 +2,7 @@
 title: 14. Примеры групп, смежные классы
 description: 
 published: 1
-date: 2021-01-20T17:14:48.390Z
+date: 2021-01-20T17:30:19.495Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-13T11:29:50.918Z
@@ -48,7 +48,7 @@ $\square$ Необходимость ($\implies$)
 $$
 \begin{array}{c|c c c c c}
 \text{1-й / 2-й} & g_1 & g_2 & \dots & g_n & \dots \\
-\hline \\
+\hline
 g_1 & g_1 \cdot g_1 & g_1 \cdot g_2 & \dots & g_1 \cdot g_n & \dots \\
 g_2 & g_2 \cdot g_1 & g_2 \cdot g_2 & \dots & g_2 \cdot g_n & \dots \\
 \dots & \dots & \dots & \dots & \dots & \dots \\
