@@ -2,7 +2,7 @@
 title: 15. Смежные классы. Теорема Лагранжа
 description: 
 published: 1
-date: 2021-01-20T14:06:07.838Z
+date: 2021-01-20T15:08:24.845Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-20T14:06:07.838Z
@@ -138,4 +138,20 @@ $\iff gHg^{-1} = H \cdot g \cdot g^{-1} = H$
 
 $\square$ Достаточность
 
-Если $f: G \to F$ гомоморфизм, то $\forall z \in Ker(f)$ 
+Для гомоморфизма $f: G \to F$ выполняется
+
+Покажем что $g^{-1}zg \in Ker(f)$: $\forall z \in Ker(f) \forall g \in G: f(g^{-1} z g) = \\ 
+= f(g^{-1}) f(z) f(g) = (f(g))^{-1} f(z) f(g) = (f(g))^{-1} f(g) = e_F$
+
+Необходимость
+
+По определению ядра $g^{-1} z g \in Ker(f) \implies g^{-1} Ker(f) g \subseteq Ker(f) \implies \\
+\implies Ker(f)$ - нормальная подгруппа $\blacksquare$
+
+*Замечание* $Ker(f)$, где $f$ - гомоморфизам всегда является группой (подгруппой исходной группы)
+
+Это так, потому что $\forall z_1, z_2 \in Ker(f): z_1 \cdot z_2 \in Ker(f)$
+
+$f(z_1 \cdot z_2) = f(z_1) \cdot f(z_2) = e \cdot e = e$
+
+Там есть нейтральный элемент
