@@ -2,7 +2,7 @@
 title: 05. Свойства пределов функций
 description: 
 published: 1
-date: 2020-11-27T16:34:07.193Z
+date: 2021-01-21T22:06:38.914Z
 tags: 
 editor: markdown
 dateCreated: 2020-10-06T11:28:53.088Z
@@ -37,7 +37,7 @@ $$
 
 **Теорема 2** (об арифметический свойствах пределов функций)
 $$
-\lim_{x\to a} f(x) = A; \lim_{x\to a} g(a) = B \\
+\lim_{x\to a} f(x) = A; \lim_{x\to a} g(x) = B \\
 $$
 Тогда: 
 1. $\underset{x\to a}{\lim}(f(x) \pm g(x)) = A \pm B$
