@@ -2,7 +2,7 @@
 title: 14. Примеры групп, смежные классы
 description: 
 published: 1
-date: 2021-01-20T17:30:19.495Z
+date: 2021-01-21T11:33:49.866Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-13T11:29:50.918Z
@@ -123,6 +123,6 @@ $0 \le r < k$ и $\implies r = a - q \cdot k \in H \implies r = 0$ и $H = k \Z 
 
 **Лемма 1** $\forall g_1, g_2 \in G$ либо $g_1 H = g_2 H$ либо $g_1 H \cap g_2 H = \varnothing$
 
-$\square$ Если $g_1 H \cap g_2 H \not= \varnothing$, то $g_1 \cdot h_1 = g_2 h_2 \implies \\
+$\square$ Если $g_1 H \cap g_2 H \not= \varnothing$, то $g_1 \cdot h_1 = g_2 \cdot h_2 \implies \\
 \implies \exists h_1, h_2 \in H: g_1 = g_2 \cdot h_2 \cdot h_1^{-1} \implies 
 \implies g_1 H = g_2 \cdot h_2 \cdot h_1^{-1} H \subseteq g_2 H$ - это лежит в $H$. И аналогично есть обратное включение $\implies g_1 H = g_1 H \blacksquare$
