@@ -2,9 +2,9 @@
 title: Первая контрольная работа
 description: 
 published: 1
-date: 2020-11-27T17:50:01.550Z
+date: 2020-11-27T17:50:07.429Z
 tags: 
-editor: markdown
+editor: undefined
 dateCreated: 2020-11-27T17:50:01.550Z
 ---
 

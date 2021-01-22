@@ -2,9 +2,9 @@
 title: 09. Аналитическая алгебра
 description: 
 published: 1
-date: 2020-12-03T14:12:59.306Z
+date: 2020-12-03T14:13:05.483Z
 tags: 
-editor: markdown
+editor: undefined
 dateCreated: 2020-11-26T00:20:48.545Z
 ---
 

@@ -2,9 +2,9 @@
 title: 08. Структуры общего решения СЛАУ
 description: 
 published: 1
-date: 2020-12-23T16:43:45.921Z
+date: 2020-12-23T16:43:56.170Z
 tags: 
-editor: markdown
+editor: undefined
 dateCreated: 2020-11-11T11:21:40.140Z
 ---
 

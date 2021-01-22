@@ -2,9 +2,9 @@
 title: 06. Теорема о базисном миноре
 description: 
 published: 1
-date: 2020-11-17T22:40:00.014Z
+date: 2020-11-17T22:40:12.515Z
 tags: 
-editor: markdown
+editor: undefined
 dateCreated: 2020-10-14T09:52:56.536Z
 ---
 

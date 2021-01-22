@@ -2,9 +2,9 @@
 title: 10. Дифференцирование
 description: 
 published: 1
-date: 2020-11-25T17:49:25.812Z
+date: 2020-11-25T17:49:35.654Z
 tags: 
-editor: markdown
+editor: undefined
 dateCreated: 2020-11-17T11:48:30.450Z
 ---
 

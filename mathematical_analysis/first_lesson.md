@@ -2,9 +2,9 @@
 title: 01. Метод математической индукции
 description: 
 published: 1
-date: 2020-11-17T22:21:30.887Z
+date: 2020-11-17T22:21:42.341Z
 tags: 
-editor: markdown
+editor: undefined
 dateCreated: 2020-09-09T20:07:06.859Z
 ---
 

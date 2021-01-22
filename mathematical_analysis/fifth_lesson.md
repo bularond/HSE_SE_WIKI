@@ -2,9 +2,9 @@
 title: 05. Свойства пределов функций
 description: 
 published: 1
-date: 2021-01-21T22:06:38.914Z
+date: 2021-01-21T22:06:52.466Z
 tags: 
-editor: markdown
+editor: undefined
 dateCreated: 2020-10-06T11:28:53.088Z
 ---
 

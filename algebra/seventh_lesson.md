@@ -2,9 +2,9 @@
 title: 07. Теорема Кронекера-Копелли и однородные матрицы
 description: 
 published: 1
-date: 2020-11-17T22:41:09.815Z
+date: 2020-11-17T22:41:19.830Z
 tags: 
-editor: markdown
+editor: undefined
 dateCreated: 2020-10-28T11:26:08.602Z
 ---
 

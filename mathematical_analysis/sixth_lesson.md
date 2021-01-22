@@ -2,9 +2,9 @@
 title: 06. Второй замечательный предел и непрерывные функции
 description: 
 published: 1
-date: 2020-11-17T22:25:31.641Z
+date: 2020-11-17T22:25:42.493Z
 tags: 
-editor: markdown
+editor: undefined
 dateCreated: 2020-10-13T11:25:58.835Z
 ---
 

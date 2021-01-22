@@ -2,9 +2,9 @@
 title: 04. Свойства определителей и обратная матрица
 description: 
 published: 1
-date: 2020-11-17T22:33:43.809Z
+date: 2020-11-17T22:33:55.185Z
 tags: 
-editor: markdown
+editor: undefined
 dateCreated: 2020-09-30T09:34:51.550Z
 ---
 

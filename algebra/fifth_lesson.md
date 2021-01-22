@@ -2,9 +2,9 @@
 title: 05. Ранг матриц
 description: 
 published: 1
-date: 2020-11-17T22:37:57.205Z
+date: 2020-11-17T22:38:07.686Z
 tags: 
-editor: markdown
+editor: undefined
 dateCreated: 2020-10-07T14:12:01.086Z
 ---
 

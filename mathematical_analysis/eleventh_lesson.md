@@ -2,9 +2,9 @@
 title: 11. Дифференцирование функции заданой параметрически, заданой неявно
 description: 
 published: 1
-date: 2020-12-03T10:44:10.303Z
+date: 2020-12-03T10:44:19.884Z
 tags: 
-editor: markdown
+editor: undefined
 dateCreated: 2020-11-24T11:25:38.671Z
 ---
 

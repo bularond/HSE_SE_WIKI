@@ -2,9 +2,9 @@
 title: 1. Введение
 description: 
 published: 1
-date: 2020-12-22T07:36:49.289Z
+date: 2020-12-22T07:36:55.838Z
 tags: 
-editor: markdown
+editor: undefined
 dateCreated: 2020-09-09T19:50:10.793Z
 ---
 

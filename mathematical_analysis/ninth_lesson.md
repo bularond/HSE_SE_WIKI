@@ -2,9 +2,9 @@
 title: 09. Вторая теорема Вейерштрасса и дифференцирование
 description: 
 published: 1
-date: 2021-01-21T22:37:23.786Z
+date: 2021-01-21T22:37:35.951Z
 tags: 
-editor: markdown
+editor: undefined
 dateCreated: 2020-11-10T11:26:40.705Z
 ---
 

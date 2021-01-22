@@ -2,9 +2,9 @@
 title: 12. Теоремы дифференциального исчесления
 description: 
 published: 1
-date: 2020-12-23T10:42:06.686Z
+date: 2020-12-23T10:42:17.592Z
 tags: 
-editor: markdown
+editor: undefined
 dateCreated: 2020-12-01T11:50:53.501Z
 ---
 

@@ -2,9 +2,9 @@
 title: 03. Бесконечно большие и малые последовательности
 description: 
 published: 1
-date: 2021-01-14T10:28:29.395Z
+date: 2021-01-14T10:28:45.055Z
 tags: 
-editor: markdown
+editor: undefined
 dateCreated: 2020-09-22T11:24:10.762Z
 ---
 

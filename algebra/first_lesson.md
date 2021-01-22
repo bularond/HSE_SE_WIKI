@@ -2,9 +2,9 @@
 title: 01. Введение в алгебру
 description: 
 published: 1
-date: 2020-11-17T22:31:34.545Z
+date: 2020-11-17T22:31:43.668Z
 tags: 
-editor: markdown
+editor: undefined
 dateCreated: 2020-09-09T20:10:29.435Z
 ---
 

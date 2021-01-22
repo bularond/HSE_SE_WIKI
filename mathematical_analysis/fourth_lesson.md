@@ -2,9 +2,9 @@
 title: 04. Пределы функций
 description: 
 published: 1
-date: 2021-01-14T10:53:02.425Z
+date: 2021-01-14T10:53:15.941Z
 tags: 
-editor: markdown
+editor: undefined
 dateCreated: 2020-09-29T11:22:06.964Z
 ---
 

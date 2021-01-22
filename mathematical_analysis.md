@@ -2,7 +2,7 @@
 title: Математический анализ
 description: 
 published: 1
-date: 2020-09-10T15:34:26.529Z
+date: 2020-11-17T13:44:14.714Z
 tags: 
 editor: undefined
 dateCreated: 2020-09-09T20:05:27.807Z

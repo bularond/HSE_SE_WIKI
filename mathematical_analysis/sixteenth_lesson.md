@@ -2,9 +2,9 @@
 title: 16. Неопределенный интеграл
 description: 
 published: 1
-date: 2021-01-19T11:30:06.033Z
+date: 2021-01-19T11:30:17.084Z
 tags: 
-editor: markdown
+editor: undefined
 dateCreated: 2021-01-19T11:30:06.033Z
 ---
 

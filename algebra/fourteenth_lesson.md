@@ -2,9 +2,9 @@
 title: 14. Примеры групп, смежные классы
 description: 
 published: 1
-date: 2021-01-21T11:33:49.866Z
+date: 2021-01-21T11:34:02.341Z
 tags: 
-editor: markdown
+editor: undefined
 dateCreated: 2021-01-13T11:29:50.918Z
 ---
 

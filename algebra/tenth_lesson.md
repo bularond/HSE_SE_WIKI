@@ -2,9 +2,9 @@
 title: 10. Комплексные числа
 description: 
 published: 1
-date: 2020-12-06T19:20:19.700Z
+date: 2020-12-06T19:20:27.809Z
 tags: 
-editor: markdown
+editor: undefined
 dateCreated: 2020-11-25T13:14:09.290Z
 ---
 

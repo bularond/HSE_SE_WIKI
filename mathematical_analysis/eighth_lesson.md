@@ -2,9 +2,9 @@
 title: 08. Свойства функций, непрерывных на отрезке
 description: 
 published: 1
-date: 2020-12-23T10:02:03.038Z
+date: 2020-12-23T10:02:12.664Z
 tags: 
-editor: markdown
+editor: undefined
 dateCreated: 2020-11-03T13:13:06.678Z
 ---
 

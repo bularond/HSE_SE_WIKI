@@ -2,9 +2,9 @@
 title: 15. Исследование функций
 description: 
 published: 1
-date: 2021-01-12T11:26:13.507Z
+date: 2021-01-12T11:26:32.427Z
 tags: 
-editor: markdown
+editor: undefined
 dateCreated: 2021-01-12T11:26:13.507Z
 ---
 

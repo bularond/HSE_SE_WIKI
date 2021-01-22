@@ -2,9 +2,9 @@
 title: 13. Продолжение теории груп
 description: 
 published: 1
-date: 2020-12-23T12:17:21.057Z
+date: 2020-12-23T12:17:30.044Z
 tags: 
-editor: markdown
+editor: undefined
 dateCreated: 2020-12-16T11:59:01.997Z
 ---
 

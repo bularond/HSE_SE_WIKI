@@ -2,9 +2,9 @@
 title: 15. Смежные классы. Теорема Лагранжа
 description: 
 published: 1
-date: 2021-01-20T19:41:52.010Z
+date: 2021-01-20T19:42:01.541Z
 tags: 
-editor: markdown
+editor: undefined
 dateCreated: 2021-01-20T14:06:07.838Z
 ---
 

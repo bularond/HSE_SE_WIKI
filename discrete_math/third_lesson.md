@@ -2,7 +2,7 @@
 title: 3. Еще строки, ПМИ ПСИ и ПНЧ
 description: 
 published: 1
-date: 2020-09-25T19:53:15.724Z
+date: 2020-11-17T13:46:40.999Z
 tags: 
 editor: undefined
 dateCreated: 2020-09-22T11:53:18.529Z

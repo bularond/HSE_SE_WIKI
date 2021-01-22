@@ -2,9 +2,9 @@
 title: 02. Числовые последовательности
 description: 
 published: 1
-date: 2021-01-14T10:20:54.266Z
+date: 2021-01-14T10:21:08.124Z
 tags: 
-editor: markdown
+editor: undefined
 dateCreated: 2020-09-15T12:07:27.085Z
 ---
 

@@ -2,7 +2,7 @@
 title: 2. Кванторы и матиндукция
 description: 
 published: 1
-date: 2020-10-03T13:32:50.668Z
+date: 2020-11-17T13:46:28.871Z
 tags: 
 editor: undefined
 dateCreated: 2020-09-12T11:36:32.358Z

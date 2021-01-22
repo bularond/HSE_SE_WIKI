@@ -2,7 +2,7 @@
 title: 1. Контрольная работа. Теоретическая часть
 description: 
 published: 1
-date: 2020-10-22T21:11:31.199Z
+date: 2020-11-17T13:49:10.046Z
 tags: 
 editor: undefined
 dateCreated: 2020-10-14T17:21:40.677Z

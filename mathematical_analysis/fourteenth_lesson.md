@@ -2,9 +2,9 @@
 title: 14. Продолжаем формулу Тейлора
 description: 
 published: 1
-date: 2020-12-15T11:21:08.447Z
+date: 2020-12-15T11:21:25.510Z
 tags: 
-editor: markdown
+editor: undefined
 dateCreated: 2020-12-15T11:19:51.368Z
 ---
 

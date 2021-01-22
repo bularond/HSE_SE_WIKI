@@ -2,9 +2,9 @@
 title: 11. Теорема Эйлера
 description: 
 published: 1
-date: 2020-12-20T14:16:58.875Z
+date: 2020-12-20T14:17:07.802Z
 tags: 
-editor: markdown
+editor: undefined
 dateCreated: 2020-12-02T11:22:07.605Z
 ---
 

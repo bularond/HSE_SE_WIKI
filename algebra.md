@@ -2,7 +2,7 @@
 title: Алгебра
 description: 
 published: 1
-date: 2020-09-20T14:15:14.933Z
+date: 2020-11-17T13:43:54.304Z
 tags: 
 editor: undefined
 dateCreated: 2020-09-09T20:09:01.769Z

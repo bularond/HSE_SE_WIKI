@@ -2,9 +2,9 @@
 title: 01. Семинар по математической индукции
 description: 
 published: 1
-date: 2020-11-17T22:22:54.341Z
+date: 2020-11-17T22:23:03.574Z
 tags: 
-editor: markdown
+editor: undefined
 dateCreated: 2020-09-10T09:58:11.867Z
 ---
 

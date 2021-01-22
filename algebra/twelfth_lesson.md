@@ -2,9 +2,9 @@
 title: 12. Начало теории групп
 description: 
 published: 1
-date: 2020-12-23T11:54:49.798Z
+date: 2020-12-23T11:54:59.830Z
 tags: 
-editor: markdown
+editor: undefined
 dateCreated: 2020-12-09T12:07:00.418Z
 ---
 
