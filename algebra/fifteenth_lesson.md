@@ -10,7 +10,7 @@ dateCreated: 2021-01-20T14:06:07.838Z
 
 **Лемма 2** $|gH| = |H|, \forall g \in G$ (и для любой конечной подгруппы $H$)
 
-$\square gH = \{g \cdot h | h \in G\} {}$
+$\square gH = \{g \cdot h | h \in H\} {}$
 
 $|gH| \le |H|$ Если $gh_1 = gh_2 \implies g^{-1} g h_1 = g^{-1} g h_2 \implies h_1 = h_2$ т. е. совпадений нет $\blacksquare$
 
