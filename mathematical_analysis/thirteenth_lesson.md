@@ -2,9 +2,9 @@
 title: 13. Правила Лопиталя и ряд Тейлора
 description: 
 published: 1
-date: 2021-01-20T17:29:48.682Z
+date: 2021-01-26T17:52:41.093Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2020-12-12T12:13:38.435Z
 ---
 
@@ -128,7 +128,7 @@ $$
 
 **Доказательство** применим правило Лопиталя $(n - 1)$ раз
 
-$\underset{x \to a}{\lim} \frac{R_n(x)}{(x - a)^n} = \underset{x \to a}{\lim} \frac{R'_n(x)}{n(x - a)^{n-1}} = \dots = \underset{x \to a}{\lim} \frac{R^{n-1}}{n(x-a)} {}$
+$\underset{x \to a}{\lim} \frac{R_n(x)}{(x - a)^n} = \underset{x \to a}{\lim} \frac{R'_n(x)}{n(x - a)^{n-1}} = \dots = \underset{x \to a}{\lim} \frac{R^{n-1}}{n!(x-a)} {}$
 
 ## Асимптотика представления основных элементарных функций
 
