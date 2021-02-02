@@ -2,9 +2,9 @@
 title: 11. Теорема Эйлера
 description: 
 published: 1
-date: 2020-12-20T14:17:07.802Z
+date: 2021-02-02T15:14:42.373Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2020-12-02T11:22:07.605Z
 ---
 
@@ -22,12 +22,11 @@ $
 
 т. е. при умножении комплексных чисел их модули умножеются, а аргументы складываются
 
-$\square z_1 \cdot z_2 = r_1(\cos\varphi_1 + i\sin\varphi_1) \cdot r_2 \cdot (\cos\varphi_2 + i\sin\varphi_2) = \\
+$\square\ z_1 \cdot z_2 = r_1(\cos\varphi_1 + i\sin\varphi_1) \cdot r_2 \cdot (\cos\varphi_2 + i\sin\varphi_2) = \\
 = r_1 \cdot r_2 \cdot ((\cos\varphi_1 \cdot \cos\varphi_2 + (i)^2 \sin\varphi_1 \cdot\sin\varphi_2) + i(\cos\varphi_1 \cdot \sin\varphi_2 + \cos\varphi_2 \cdot \varphi_1)) = \\
-= r_1 \cdot r_2 (\cos(\varphi_1 + \varphi_2) + i \cdot \sin(\varphi_ 1 + \varphi_2)) \blacksquare$
+= r_1 \cdot r_2 (\cos(\varphi_1 + \varphi_2) + i \cdot \sin(\varphi_ 1 + \varphi_2))\ \blacksquare$
 
 **Определение** Комплексно сопряженным к числу $z$ называется число $\bar{z}$
-
 $\bar{z} = a - bi$, если $z = a + bi$
 
 Комплексно сопряженное - это отраженное относительно вещественной оси
