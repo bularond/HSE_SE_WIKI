@@ -2,7 +2,7 @@
 title: 12. Начало теории групп
 description: 
 published: 1
-date: 2021-02-02T15:41:49.201Z
+date: 2021-02-02T15:45:19.225Z
 tags: 
 editor: markdown
 dateCreated: 2020-12-09T12:07:00.418Z
@@ -24,11 +24,11 @@ $$
 
 Сопряжем обе части
 
-$$\overline{0} = 0 = \overline{a_n \cdot c^n + \dots + a_1 c + a_0} = \\
-= \overline{a_n}\cdot \overline{c}^n + \dots + \overline{a_1} \cdot \overline{c} + \overline{a_0} = \\
-= a_n \cdot \overline{c}^n + \dots + a_1 \cdot \overline{c} + a_0 = 0$$
+$$\bar{0} = 0 = \overline{a_n \cdot c^n + \dots + a_1 c + a_0} = \\
+= \bar{a_n}\cdot \bar{c}^n + \dots + \bar{a_1} \cdot \bar{c} + \bar{a_0} = \\
+= a_n \cdot \bar{c}^n + \dots + a_1 \cdot \bar{c} + a_0 = 0$$
 
-$\overline{c}$ - тоже является корнем
+$\bar{c}$ - тоже является корнем
 
 Если $c$ - корень кратный $1$, то все доказано. Если кратность $>1$, то делим на $x - \overline{c}$ по теореме Безу остаток будет нулевым и к многочлену применяем ту же процедуру
 
