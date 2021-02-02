@@ -2,7 +2,7 @@
 title: 11. Теорема Эйлера
 description: 
 published: 1
-date: 2021-02-02T15:14:42.373Z
+date: 2021-02-02T15:38:37.019Z
 tags: 
 editor: markdown
 dateCreated: 2020-12-02T11:22:07.605Z
@@ -53,6 +53,23 @@ $$
 \frac{z_1}{z_2} = \frac{r_1}{r_2} (\cos(\varphi_1 - \varphi_2) + i\sin(\varphi_1 - \varphi_2))
 $$
 
+**Утверждение** (формула Муавра)
+
+$$
+z^n = r^n (\cos(n\varphi) + i\sin(n\varphi)), n \in \N \\
+z = r \cdot (\cos\varphi + i\sin\varphi)
+$$
+
+$\square$ Применим принцип мат. индукции
+
+База: $n = 2$ доказано ранее
+
+Предположим, что формула верна для всех $n \ge k$. Докажем, что из этого следует, что они верны и для $n = k + 1$
+
+$z^{k+1} = z^k \cdot z = r^k(\cos(k\varphi) + i\sin(k\varphi)) \cdot r \cdot (\cos\varphi + i\sin\varphi) =\\ 
+= r^{k+1}(\cos((k+1)\varphi) + i\sin((k+1) \varphi)) \implies$ это верно $\forall n \in \N\ \blacksquare$
+
+
 **Утверждение** Формула Эйлера
 
 $e^{i\varphi} = \cos \varphi + i\sin\varphi$
@@ -71,22 +88,6 @@ $$
 \implies \cos\varphi = \frac{e^{i\varphi} + e^{-i\varphi}}{2}, \sin\varphi = \frac{e^{i\varphi} - e^{-i\varphi}}{2i}
 $$
 
-**Утверждение** (формула Муавра)
-
-$$
-z^n = r^n (\cos(n\varphi) + i\sin(n\varphi)), n \in \N \\
-z = r \cdot (\cos\varphi + i\sin\varphi)
-$$
-
-$square$ Применим принцип мат. индукции
-
-База: $n = 2$ доказано ранее
-
-Предположим, что формула верна для всех $n \ge k$. Докажем, что из этого следует, что они верны и для $n = k + 1$
-
-$z^{k+1} = z^k \cdot z = r^k(\cos(k\varphi) + i\sin(k\varphi)) \cdot r \cdot (\cos\varphi + i\sin\varphi) =\\ 
-= r^{k+1}(\cos((k+1)\varphi) + i\sin((k+1) \varphi)) \implies$ это верно $\forall n \in \N$
-
 **Замечание** Из формулы Эйлера следует возможность экспоненциальной формы записи комплексного числа
 
 $$
@@ -102,18 +103,20 @@ $$
 
 # Извлечение комплексных корней
 
-Пусть дано комплексное числа $w = \rho (\cos\psi + i \sin\psi)$ и число $n \in \N$ нужно найти $\sqrt[n]{w}$
+Пусть дано комплексное число $w = \rho (\cos\psi + i \sin\psi)$ и число $n \in \N$, нужно найти $\sqrt[n]{w} {}$
 
-То есть нужно найти все $z: w$. Пусть $z = r(\cos\varphi + i\sin\varphi)$
+То есть нужно найти все $z: z^n = w$. Пусть $z = r(\cos\varphi + i\sin\varphi)$
 
 По формуле Муавра:
 
 $
 z^n = r^n (\cos(n\varphi) + i\sin(n\varphi)) \\
-\rho (\cos\psi + i\sin\psi) \\
+z^n = \rho (\cos\psi + i\sin\psi)
+$
+$
 \begin{cases}
-\rho = r^n \\
-\psi + 2\pi k = n \varphi, k \in \Z
+r^n = \rho \\
+n \varphi = \psi + 2\pi k,\ k \in \Z
 \end{cases} \implies \\
 \begin{cases}
 r = \sqrt[n]{\rho} \quad \text{арифметический корень из } \rho > 0 \\
@@ -121,7 +124,7 @@ r = \sqrt[n]{\rho} \quad \text{арифметический корень из } 
 \end{cases}
 $
 
-Достаточно рассмотреть только $k = 0, 1, 2, \dots, n-1$. Их ровно $n$ шутк $\implies$
+Достаточно рассмотреть только $k = 0, 1, 2, \dots, n-1$, так как так мы обойдем все углы в $[0; 2\pi)$. Таких $k$ ровно $n$ шутк $\implies$
 
 $$
 \sqrt[n]{w} = \left\{z = \sqrt[n]{\rho} \cdot (\cos\left(\frac{\psi + 2\pi k}{n}\right) + i\sin\left(\frac{\psi + 2\pi k}{n}\right)) | k = \overline{0,n-1}\right\}
@@ -149,17 +152,17 @@ $\exists$ корень $z_0 \in \mathbb{C} {}$
 
 **Следствие** У многочлена $P_n(z)$ степени $n, n \in \N$ есть ровно $n$ корней (с учетом кратности)
 
-**Теорема Безу** Остаток от деления многочлена $f(x)$ на $x-c$ равен $f(c)$
+**Теорема Безу:** Остаток от деления многочлена $f(x)$ на $x-c$ равен $f(c)$
 
 $\square$ Разделим $f(x)$ с остатком на $x-c$:
 
-$f(x) = (x - c) \cdot Q(x) + R(x)$, где $\text{deg} R(x) < \text{deg}(x - c) = 1 \implies R(x) = k$ - константа
+$f(x) = (x - c) \cdot Q(x) + R(x)$, где $\text{deg}(R(x)) < \text{deg}(x - c) = 1 \implies R(x) = k$ $-$ константа
 
 Подставим $x = c$:
 
-$f(c) = 0 \cdot Q(c) + k \implies k = f(c) \blacksquare$
+$f(c) = 0 \cdot Q(c) + k \implies k = f(c)\ \blacksquare$
 
-Находим корень $z_0$ и делим на $z - z_0$. По теореме бузу остаток равен нулю $\implies$ получается многочлен
+Находим корень $z_0$ и делим на $z - z_0$. По теореме Безу остаток равен нулю $\implies$ получается многочлен
 
 $$
 P_n(z) = (z - z_0) \cdot \widetilde{P}_{n-1} (z)
