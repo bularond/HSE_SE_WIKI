@@ -2,7 +2,7 @@
 title: 13. Продолжение теории груп
 description: 
 published: 1
-date: 2021-02-02T20:49:32.822Z
+date: 2021-02-02T20:57:15.106Z
 tags: 
 editor: markdown
 dateCreated: 2020-12-16T11:59:01.997Z
@@ -146,7 +146,7 @@ $G = \{e, g, g^2, \dots, g^{q - 1}\} \\
 G' = \{e', g', \dots, (g')^{q - 1}\}$
 
 $
-ord(G) = ord(G')
+ord(G) = ord(G') = q
 $
 
 то $f: g^k \xrightarrow[]{} (g')^k, k = 0, \dots, q^{-1}$ - это биекция и изоморфизм $\blacksquare$
