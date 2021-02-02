@@ -2,7 +2,7 @@
 title: 14. Примеры групп, смежные классы
 description: 
 published: 1
-date: 2021-02-02T23:04:44.736Z
+date: 2021-02-02T23:44:10.924Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-13T11:29:50.918Z
@@ -147,10 +147,11 @@ $r = \underbrace{a}_{\in H} - \underbrace{q \cdot k}_{\in H} \in H \implies r = 
 
 ---
 
-**Определение** Пусть $G$ - группа и $H$ - ее подгруппа. Пусть фиксирован $g \in G$. Левым смежным классам элемента $g$ по подгруппе $H$ называется множество $gH = \{g \cdot h | h \in H\}$ (а правый симметричным класс: $Hg = \{h \cdot g | h \in H\}$)
+**Определение** Пусть $G$ - группа и $H$ - ее подгруппа. Пусть фиксирован $g \in G$. Левым **смежным классом** элемента $g$ по подгруппе $H$ называется множество $gH = \{g \cdot h | h \in H\}$ (а правый смежный класс: $Hg = \{h \cdot g | h \in H\}$)
 
 **Лемма 1** $\forall g_1, g_2 \in G$ либо $g_1 H = g_2 H$ либо $g_1 H \cap g_2 H = \varnothing$
 
-$\square$ Если $g_1 H \cap g_2 H \not= \varnothing$, то $g_1 \cdot h_1 = g_2 \cdot h_2 \implies \\
-\implies \exists h_1, h_2 \in H: g_1 = g_2 \cdot h_2 \cdot h_1^{-1} \implies 
-\implies g_1 H = g_2 \cdot h_2 \cdot h_1^{-1} H \subseteq g_2 H$ - это лежит в $H$. И аналогично есть обратное включение $\implies g_1 H = g_1 H \blacksquare$
+$\square$ Если $g_1 H \cap g_2 H \not= \varnothing$, то $\exists h_1, h_2 \in H: g_1 \cdot h_1 = g_2 \cdot h_2 \implies \\
+\implies g_1 = g_2 \cdot \underbrace{h_2 \cdot h_1^{-1}}_{\in H} 
+\implies g_1 H = g_2 \cdot \underbrace{h_2 \cdot h_1^{-1} H}_{\text{лежит в H}} \subseteq g_2 H$. 
+Аналогично есть обратное включение $\implies g_1 H = g_2 H \ \blacksquare$
