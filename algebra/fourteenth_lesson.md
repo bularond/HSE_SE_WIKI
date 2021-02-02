@@ -2,21 +2,28 @@
 title: 14. Примеры групп, смежные классы
 description: 
 published: 1
-date: 2021-01-21T11:34:02.341Z
+date: 2021-02-02T21:32:09.499Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2021-01-13T11:29:50.918Z
 ---
 
-**Утверждение** Пусть $G$ - группа и $g \in G$. Тогда $|\langle g \rangle| = ord(g)$ ($\langle g \rangle$ - циклическая группа порожденная $g$; $|G|$ - число элементов в $G$) 
+$\langle g \rangle$ - циклическая группа порожденная $g$, $\langle g \rangle = \{ g^n \} {}$
 
-$\square$ Заметим, что если $g^k = g^s \implies g^{k - s} = e$ (т. к. $\exists g^{-1}$) $\implies$ порядок $g \le k - s \implies$ если $g$ имеет бесконечный порядок, то все элементы $g^n, n \in \Z$ различны и $\implies \langle g \rangle$ содержит бесконечно много элементов $\implies$ в бесконечном случае доказано
+**Утверждение** Пусть $G$ - группа и $g \in G$. 
+Тогда $|\langle g \rangle| = ord(g)$ ($|G|$ - число элементов в $G$) 
 
-Если же $ord(g) = m$, то из минимальности $m \in \N \implies e = g^0, g = g^1, \dots, g^{m - 1}$ попарно различны. Покажем, что $\langle g \rangle = \{e, g, g^1, \dots, g^{m - 1}\}$
+$\square$ Заметим, что если нашлись $k,s \in \N:\ g^k = g^s \implies g^{k - s} = e$ (домножим на $g^{-s}$) $\implies$ $ord(g) \le k - s$ 
 
-$\forall n \in \Z \quad n = m \cdot q + r$, где $0 \le r < m \implies \\
-\implies g^n = g^{m \cdot q + r} = (g^m)^q \cdot g^r = e^q \cdot g^r = g^r$, где $0 \le r < m \implies \langle g \rangle = \{e, g, \dots, g^{m - 1}\}$ и $|\langle g \rangle| = m = ord(g) \blacksquare$
+Если $g$ имеет бесконечный порядок, то все элементы $g^n, n \in \Z$ различны $\implies \langle g \rangle$ содержит бесконечно много элементов $\implies$ в бесконечном случае доказано
 
+Если же $ord(g) = m$, то из минимальности $m \in \N \implies e = g^0, g = g^1, \dots, g^{m - 1}$ попарно различны. Покажем, что $\langle g \rangle = \{e, g, g^1, \dots, g^{m - 1}\}$ то есть других элементов нет
+
+$\forall n \in \Z \quad n = m \cdot q + r$, где $0 \le r < m \\
+\implies g^n = g^{m \cdot q + r} = (g^m)^q \cdot g^r = e^q \cdot g^r = g^r$, где $0 \le r < m \\
+\implies \langle g \rangle = \{e, g, \dots, g^{m - 1}\}$ и $|\langle g \rangle| = m = ord(g)\ \blacksquare$
+
+---
 
 **Определение** Ядром гомоморфизма $f$ ($f: G \to F$) называется множество элементов группы $G$, которые переходят в $e_F$ (нейтральный элемент во второй группе)
 
