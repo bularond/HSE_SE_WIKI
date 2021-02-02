@@ -2,7 +2,7 @@
 title: 11. Теорема Эйлера
 description: 
 published: 1
-date: 2021-02-02T15:38:37.019Z
+date: 2021-02-02T15:50:33.563Z
 tags: 
 editor: markdown
 dateCreated: 2020-12-02T11:22:07.605Z
@@ -174,6 +174,8 @@ $$
 P_n(z) = a_n(z - z_1) \cdot \dots \cdot (z - z_n) = a_n (z - z_1)^{\alpha_1} \cdot \dots \cdot (z - z_k)^{\alpha_k} \\
 \alpha_1 + \dots + \alpha_k = n
 $$
+
+(это $\alpha$, не $a$)
 
 **Определение** Разложение многочлена на множетели $f(x) = g(x) \cdot h(x)$ называют нетривиальным, если 
 
