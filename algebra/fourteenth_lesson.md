@@ -2,7 +2,7 @@
 title: 14. Примеры групп, смежные классы
 description: 
 published: 1
-date: 2021-02-03T00:03:03.529Z
+date: 2021-02-03T00:12:37.732Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-13T11:29:50.918Z
@@ -17,7 +17,7 @@ $\square$ Заметим, что если нашлись $k,s \in \N:\ g^k = g^s
 
 Если $g$ имеет бесконечный порядок, то все элементы $g^n, n \in \Z$ различны $\implies \langle g \rangle$ содержит бесконечно много элементов $\implies$ в бесконечном случае доказано
 
-Если же $ord(g) = m$, то из минимальности $m \in \N \implies e = g^0, g = g^1, \dots, g^{m - 1}$ попарно различны. Покажем, что $\langle g \rangle = \{e, g, g^1, \dots, g^{m - 1}\}$ то есть других элементов нет
+Если же $ord(g) = m$, то из минимальности $m, m \le k-s, m \in \N \implies e = g^0, g = g^1, \dots, g^{m - 1}$ попарно различны. Покажем, что $\langle g \rangle = \{e, g, g^1, \dots, g^{m - 1}\}$ то есть других элементов нет
 
 $\forall n \in \Z \quad n = m \cdot q + r$, где $0 \le r < m \\
 \implies g^n = g^{m \cdot q + r} = (g^m)^q \cdot g^r = e^q \cdot g^r = g^r$, где $0 \le r < m \\
