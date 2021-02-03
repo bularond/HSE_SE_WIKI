@@ -2,7 +2,7 @@
 title: 14. Примеры групп, смежные классы
 description: 
 published: 1
-date: 2021-02-03T00:02:10.971Z
+date: 2021-02-03T00:03:03.529Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-13T11:29:50.918Z
@@ -144,7 +144,7 @@ $\square\ k \Z$ очевидно является подргуппой. Дока
 $0 \le r < k$ 
 $r = \underbrace{a}_{\in H} - \underbrace{q \cdot k}_{\in H} \in H \implies r = 0$ и $H = k \Z \ \blacksquare$
 
----
+## Смежные классы
 
 **Определение** Пусть $G$ - группа и $H$ - ее подгруппа. Пусть фиксирован $g \in G$. Левым **смежным классом** элемента $g$ по подгруппе $H$ называется множество $gH = \{g \cdot h | h \in H\}$ (а правый смежный класс: $Hg = \{h \cdot g | h \in H\}$)
 
