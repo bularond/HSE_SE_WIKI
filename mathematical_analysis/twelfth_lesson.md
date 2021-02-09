@@ -2,9 +2,9 @@
 title: 12. Теоремы дифференциального исчесления
 description: 
 published: 1
-date: 2020-12-23T10:42:17.592Z
+date: 2021-02-09T19:40:40.466Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2020-12-01T11:50:53.501Z
 ---
 
@@ -24,7 +24,7 @@ $(f(x) g(x))^{(n)} = \sum_{k=0}^{n} C_n^k f^{(k)}(x)g^{(n-k)}(x) = \sum_{k=0}^{n
 
 $(fg)^{(n+1)} = ((fg)^{(n)})' = (\sum_{k=0}^{n} C_n^k f^{(k)} g^{(n-k)})' = \\ 
 = \sum_{k=0}^n C_n^k f^{(k+1)} g^{(n - k)} + \sum_{k=0}^{n} C_n^k f^{(k)} g^{(n - k + 1)} = \\
-= \sum_{m=1}^n C_n^{m-1} f^{(m)} g^{(n - m + 1)} + \sum_{m=0}^{n} C_n^m f^{(m)} g^{(n - m + 1)} = \\
+= \sum_{m=1}^{n+1} C_n^{m-1} f^{(m)} g^{(n - m + 1)} + \sum_{m=0}^{n} C_n^m f^{(m)} g^{(n - m + 1)} = \\
 = f^{(n + 1)} g^{(0)} + \sum_{m=1}^n (C_n^{m-1} + C_n^m) f^{(m)} g^{(n - m + 1)} + f^{(0)} g^{(n + 1)} = \\
 = \sum_{m=0}^{n+1} C_{n + 1}^m f^{m} g^{n - m + 1} {}$
 
