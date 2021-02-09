@@ -2,7 +2,7 @@
 title: 12. Теоремы дифференциального исчесления
 description: 
 published: 1
-date: 2021-02-09T19:41:00.861Z
+date: 2021-02-09T19:47:51.009Z
 tags: 
 editor: markdown
 dateCreated: 2020-12-01T11:50:53.501Z
@@ -32,7 +32,7 @@ $(fg)^{(n+1)} = ((fg)^{(n)})' = (\sum_{k=0}^{n} C_n^k f^{(k)} g^{(n-k)})' = \\
 
 $x \in O_h(x_0), f(x); x_0 - \text{locmin}(\text{locmax})$ если $\exists \delta > 0 \forall x \in O_\delta (x_0) \implies (f(x) \geq f(x_0)) \text{ или, для locmax, }(f(x) \leq f(x_0))$
 
-$x_0$ - точка $\text{locmin}$ или $\text{locmax}$, то $x_0$ точка $\text{locextr}$. 
+Если $x_0$ - точка $\text{locmin}$ или $\text{locmax}$, то $x_0$ точка $\text{locextr}$. 
 
 ## Теорема Ферма (необходимое условие экстремума)
 Если $x_0 - \text{locextr}$ функции $f$ и $\exists f'(x_0)$, то $f'(x_0) = 0$
