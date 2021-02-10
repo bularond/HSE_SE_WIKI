@@ -2,7 +2,7 @@
 title: 17. Теорема Кэли, примеры криптографии
 description: 
 published: 1
-date: 2021-02-10T15:43:15.686Z
+date: 2021-02-10T16:32:34.564Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-03T12:26:15.393Z
@@ -14,7 +14,11 @@ dateCreated: 2021-02-03T12:26:15.393Z
 
 $\square$ Пусть $|G| = n$ и $\forall a \in G$ рассмотрим отображение $L_a: G \to G$, $L_a(g) = a \cdot g$. 
 Покажем, что $L_a$ - это биекция. 
-Пусть $e, g_2, g_3, \dots, g_n$ - элементы группы. Тогда $a \cdot e, a \cdot g_2, \dots, a \cdot g_n$ - те же самые элементы, но в другом порядке. (Если $a \cdot g_j = a \cdot g_i \iff a^{-1} \cdot a \cdot g_j = a^{-1} \cdot a \cdot g_i \iff g_j = g_i$) $\implies L_a$ - перестановка элементов группы.
+Пусть $e, g_2, g_3, \dots, g_n$ - элементы группы. Тогда $a \cdot e, a \cdot g_2, \dots, a \cdot g_n$ - те же самые элементы, но в другом порядке. (Если $a \cdot g_j = a \cdot g_i \iff a^{-1} \cdot a \cdot g_j = a^{-1} \cdot a \cdot g_i \iff g_j = g_i$) $\implies L_a$ - перестановка элементов группы. $L_a \in S(G)$
+
+> $S(X)\ -$ симметрическая группа множества $X$ $\iff$ группа всех перестановок в нем $\iff$ группа всех биекций X $\to$ X 
+>
+> Если $X$ конечно, то $S(X) \cong S_n$ из $X \sim \underline{n}{}$
 
 $L_a \in S_n$
 
@@ -28,6 +32,8 @@ $\implies$ множество $L_e, L_{g_2}, \dots, L_{g_n}$ образуют п
 
 То есть, искомый изоморфизм:
 $a \mapsto L_a \in H \subseteq S_n \ \blacksquare$
+
+> Бывает, например в [англовики](https://en.wikipedia.org/wiki/Cayley%27s_theorem), теорема формулируется с $S(G)$ вместо $S_n$
 
 ## Автоморфизм
 
