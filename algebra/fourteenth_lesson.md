@@ -2,7 +2,7 @@
 title: 14. Примеры групп, смежные классы
 description: 
 published: 1
-date: 2021-02-10T11:30:14.197Z
+date: 2021-02-10T17:30:16.164Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-13T11:29:50.918Z
@@ -66,7 +66,7 @@ $$
 g_1 & g_1 \cdot g_1 & g_1 \cdot g_2 & \dots & g_1 \cdot g_n & \dots \\
 g_2 & g_2 \cdot g_1 & g_2 \cdot g_2 & \dots & g_2 \cdot g_n & \dots \\
 \dots & \dots & \dots & \dots & \dots & \dots \\
-g_m & g_m \cdot g_1 & g_m \cdot g_2 & \dots & g_m \cdot g_m & \dots \\
+g_m & g_m \cdot g_1 & g_m \cdot g_2 & \dots & g_m \cdot g_n & \dots \\
 \dots & \dots & \dots & \dots & \dots & \dots \\
 \end{array}
 $$
