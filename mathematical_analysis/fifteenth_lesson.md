@@ -2,9 +2,9 @@
 title: 15. Исследование функций
 description: 
 published: 1
-date: 2021-01-12T11:26:32.427Z
+date: 2021-02-12T20:39:31.803Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2021-01-12T11:26:13.507Z
 ---
 
@@ -46,7 +46,7 @@ $\impliedby$ пусть $f'(x) \ge 0 \quad x_1 < x_1$ по теореме лаг
 
 ---
 
-$f(x), x \in O_\sigma (x_0) \quad x_0$ - строкиг локальный минимум если
+$f(x), x \in O_\sigma (x_0) \quad x_0$ - строкий локальный минимум если
 
 $\exists \sigma > 0 \forall x \in O_\sigma (x_0) \implies f(x) > f(x_0)$
 
