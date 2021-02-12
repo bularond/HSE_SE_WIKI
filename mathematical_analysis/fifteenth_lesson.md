@@ -2,7 +2,7 @@
 title: 15. Исследование функций
 description: 
 published: 1
-date: 2021-02-12T20:39:31.803Z
+date: 2021-02-12T20:50:45.109Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-12T11:26:13.507Z
@@ -88,7 +88,7 @@ $f(x) = f(x_0) + f'(x_0) (x - x_0) + \frac{f''(x_0)}{2}(x - x_0)^2 + o((x - x_0)
 = f(x_0) + \frac{f''(x_0)'}{2} (x - x_0)^2 + d(x - x_0) (x - x_0)^2 = \\
 = f(x_0) + (x - x_0)^2 \left(\frac{f''(x_0)}{2} + \alpha(x - x_0)\right)$
 
-пусть $f''(x_0) > 0, \xi = \frac{f''(x_0)}{2} > 0 \exists \sigma > 0 \forall x \in O_\sigma (x_0) \implies |\alpha(x - x_0)| < \frac{f''(x_0)}{2}$
+пусть $f''(x_0) > 0$, \xi = \frac{f''(x_0)}{2} > 0 \exists \sigma > 0 \forall x \in O_\sigma (x_0) \implies |\alpha(x - x_0)| < \frac{f''(x_0)}{2}$
 
 т. е. $\left[\frac{f''(x_0)}{2} + \alpha(x - x_0)\right] > 0$
 
