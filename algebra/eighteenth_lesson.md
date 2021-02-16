@@ -2,7 +2,7 @@
 title: 18. RSA, кольца, поля
 description: 
 published: 1
-date: 2021-02-16T12:18:43.116Z
+date: 2021-02-16T12:20:36.475Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-10T11:21:22.422Z
@@ -110,6 +110,8 @@ $$
 
 1. Является подгруппой $(K, +)$ по сложению
 2. $\forall a \in I \space \forall r \in K: r \cdot a \in I \land a \cdot r \in I$
+
+> Аналог нормальной подгруппы
 
 *Пример* $m\Z$ - идеал в кольце $\Z$. $C$ подгрпуппа в $(\Z, +)$. $m \cdot k$ - элемент $m\Z$ и $r = n$ - произвольное целое $\implies a \cdot r$ и $r \cdot a$ здесь $m \cdot k \cdot n \in m\Z$
 
