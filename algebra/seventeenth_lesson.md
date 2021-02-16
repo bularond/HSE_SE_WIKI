@@ -2,7 +2,7 @@
 title: 17. Теорема Кэли, примеры криптографии
 description: 
 published: 1
-date: 2021-02-13T17:58:51.619Z
+date: 2021-02-16T10:31:35.998Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-03T12:26:15.393Z
@@ -59,7 +59,7 @@ $Inn(G) \subseteq Aut(G) \subseteq S(G)$
 
 **Утверждение** $Z(G)$ всегда является нормальной подгруппой в $G$
 
-$\square$ Покажем, что $Z(G)$ является подгруппой. Для того, что бы $H$ была подгруппой $\iff \forall a, b \in H: a \cdot b^{-1} \in H$ 
+$\square$ Покажем, что $Z(G)$ является подгруппой. Для того, что бы $H$ было подгруппой $\iff \forall a, b \in H: a \cdot b^{-1} \in H$ 
 
 > $\forall a, b \in H: a \cdot b^{-1} \in H \implies H\ -$ Группа
 > 
