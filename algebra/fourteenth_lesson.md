@@ -2,7 +2,7 @@
 title: 14. Примеры групп, смежные классы
 description: 
 published: 1
-date: 2021-02-10T17:30:16.164Z
+date: 2021-03-04T14:31:04.227Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-13T11:29:50.918Z
@@ -152,5 +152,5 @@ $r = \underbrace{a}_{\in H} - \underbrace{q \cdot k}_{\in H} \in H \implies r = 
 
 $\square$ Если $g_1 H \cap g_2 H \not= \varnothing$, то $\exists h_1, h_2 \in H: g_1 \cdot h_1 = g_2 \cdot h_2 \implies \\
 \implies g_1 = g_2 \cdot \underbrace{h_2 \cdot h_1^{-1}}_{\in H} 
-\implies g_1 H = g_2 \cdot \underbrace{h_2 \cdot h_1^{-1} H}_{\text{лежит в H}} \subseteq g_2 H$. 
+\implies g_1 H = g_2 \cdot \underbrace{h_2 \cdot h_1^{-1} H}_{\text{лежит в H}} = g_2 H$. 
 Аналогично есть обратное включение $\implies g_1 H = g_2 H \ \blacksquare$
