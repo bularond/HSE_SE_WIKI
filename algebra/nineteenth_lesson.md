@@ -2,7 +2,7 @@
 title: 19. Факторкольцо, многочлены, поля
 description: 
 published: 1
-date: 2021-03-12T16:36:07.691Z
+date: 2021-03-30T13:00:23.468Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-24T11:33:21.748Z
@@ -18,12 +18,12 @@ $\square$ Идеал:
 
 $\varphi(a \cdot r) = \varphi(a) \cdot \varphi(r) = 0 \cdot \varphi(r) = 0$
 
-И аналогично $\varphi(r \cdot a) = \varphi(r) \cdot 0 = 0 \blacksquare$
+И аналогично $\varphi(r \cdot a) = \varphi(r) \cdot 0 = 0 \ \blacksquare$
 
 **Лемма** $r \cdot 0 = 0 \cdot r = 0$
 
-$\square r + 0 = r \implies r (r + 0) = r \cdot r \implies r^2 + r \cdot 0 = r^2 | + (-r^2) \\ 
-r \cdot 0 = 0$ ч. т. д. $\blacksquare$
+$\square\ r + 0 = r \implies r (r + 0) = r \cdot r \implies r^2 + r \cdot 0 = r^2 \mid + (-r^2) \\ 
+r \cdot 0 = 0$ $\blacksquare$
 
 ## Факторкольцо
 
