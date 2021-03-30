@@ -2,7 +2,7 @@
 title: 19. Факторкольцо, многочлены, поля
 description: 
 published: 1
-date: 2021-03-30T13:35:56.859Z
+date: 2021-03-30T13:44:52.206Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-24T11:33:21.748Z
@@ -50,13 +50,13 @@ r \cdot 0 = 0$ $\blacksquare$
 
 **Замечание** $Im(\varphi)$, где $\varphi$ - гомоморфизм колец является подкольцом в $K_2$ ($\varphi: K_1 \to K_2$)
 
-**Теорема** (о гомоморфизме колец)
+## Теорема о гомоморфизме колец
 
-Пусть $K_1, K_2$ - два кольца. $\varphi: K_1 \to K_2$ - гомоморфизм. Тогда $K_1 / Ker(\varphi)$
+Пусть $K_1, K_2$ - два кольца. $\varphi: K_1 \to K_2$ - гомоморфизм. Тогда $K_1 / Ker(\varphi) \cong Im(\varphi)$
 
-$\square Ker(\varphi)$ является идеалом (по Лемме) $\implies K_1/Ker(\varphi)$ корректно определен
+$\square Ker(\varphi)$ является идеалом (по лемме выше) $\implies K_1/Ker(\varphi)$ корректно определен
 
-Рассмотрим отображение $\tau: K/Ker(\varphi) \to Im(\varphi), \tau(a + I) = \varphi(a)$. Из доказательства теоремы о гомоморфизме групп $\implies \tau$ корректно определено и является гомоморфизмом групп по сложению. Остается проверить, что $\tau$ сохроняет умножение:
+Рассмотрим отображение $\tau: K/Ker(\varphi) \to Im(\varphi), \tau(a + I) = \varphi(a)$. Из доказательства [теоремы о гомоморфизме групп](https://wiki.bularond.ru/ru/algebra/sexteenth_lesson) $\implies \tau$ корректно определено и является гомоморфизмом групп по сложению. Остается проверить, что $\tau$ сохроняет умножение:
 
 $\tau((a + I) \cdot (b + I)) = \tau(a \cdot b + I) = \varphi(a \cdot b) = \varphi(a) \cdot \varphi(b) = \tau(a + I) * \tau(b + I) \implies \tau$ - это гомоморфизм колец. И т. к. $\tau$ являются биекцией (из теоремы о гомоморфизме групп), то это изоморфизм (между $K_1/Ker(\varphi)$ и $Im(\varphi)$) $\blacksquare$
 
