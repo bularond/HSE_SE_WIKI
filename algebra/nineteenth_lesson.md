@@ -2,7 +2,7 @@
 title: 19. Факторкольцо, многочлены, поля
 description: 
 published: 1
-date: 2021-03-30T13:44:52.206Z
+date: 2021-03-30T13:52:50.824Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-24T11:33:21.748Z
@@ -58,7 +58,7 @@ $\square Ker(\varphi)$ является идеалом (по лемме выше
 
 Рассмотрим отображение $\tau: K/Ker(\varphi) \to Im(\varphi), \tau(a + I) = \varphi(a)$. Из доказательства [теоремы о гомоморфизме групп](https://wiki.bularond.ru/ru/algebra/sexteenth_lesson) $\implies \tau$ корректно определено и является гомоморфизмом групп по сложению. Остается проверить, что $\tau$ сохроняет умножение:
 
-$\tau((a + I) \cdot (b + I)) = \tau(a \cdot b + I) = \varphi(a \cdot b) = \varphi(a) \cdot \varphi(b) = \tau(a + I) * \tau(b + I) \implies \tau$ - это гомоморфизм колец. И т. к. $\tau$ являются биекцией (из теоремы о гомоморфизме групп), то это изоморфизм (между $K_1/Ker(\varphi)$ и $Im(\varphi)$) $\blacksquare$
+$\tau((a + I) \cdot (b + I)) = \tau(a \cdot b + I) = \varphi(a \cdot b) = \varphi(a) * \varphi(b) = \tau(a + I) * \tau(b + I) \implies \tau$ - это гомоморфизм колец. И т. к. $\tau$ являются биекцией (из теоремы о гомоморфизме групп), то это изоморфизм (между $K_1/Ker(\varphi)$ и $Im(\varphi)$) $\blacksquare$
 
 ---
 
