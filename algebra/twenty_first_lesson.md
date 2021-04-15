@@ -2,7 +2,7 @@
 title: 21. Линейные пространтсва, базисы, подпространтсвап
 description: 
 published: 1
-date: 2021-04-15T12:12:09.750Z
+date: 2021-04-15T12:36:07.594Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-03T11:30:51.619Z
@@ -102,16 +102,16 @@ $
 **Определение** Матрицей перехода от базиса $\mathcal{A}$ к базису $\mathcal{B}$ называется матрица:
 
 $
-T_{\mathcal{A} \xrightarrow{} \mathcal{B}} = \begin{pmatrix}
+T_{\mathcal{A} \to \mathcal{B}} = \begin{pmatrix}
 t_{11} & \dots & t_{1n} \\
-\dots & & \dots \\
-t_{n1} & & t_{nn}
+\dots &  & \dots \\
+t_{n1} & \dots & t_{nn}
 \end{pmatrix}
 $
 
 $
-(1) \iff (b_1, \dots, b_n)_{1 \times n} = (a_1, \dots, a_n) \cdot T_{\mathcal{A} \xrightarrow{} \mathcal{B}} \iff \\
-\iff b = a \cdot T_{\mathcal{A} \xrightarrow{} \mathcal{B}}
+(1) \iff (b_1, \dots, b_n)_{1 \times n} = (a_1, \dots, a_n) \cdot T_{\mathcal{A} \to \mathcal{B}} \iff \\
+\iff b = a \cdot T_{\mathcal{A} \to \mathcal{B}}
 $ - матричная форма записи определения матрицы перехода
 
 **Замечание** В любом базисе данного линейного пространства всегда одинаковое количество векторов и оно $= dim(V)$ - размерности пространства
