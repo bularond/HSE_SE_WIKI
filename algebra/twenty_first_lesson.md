@@ -2,7 +2,7 @@
 title: 21. Линейные пространтсва, базисы, подпространтсвап
 description: 
 published: 1
-date: 2021-04-15T12:36:07.594Z
+date: 2021-04-22T12:24:00.264Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-03T11:30:51.619Z
@@ -116,7 +116,7 @@ $ - матричная форма записи определения матри
 
 **Замечание** В любом базисе данного линейного пространства всегда одинаковое количество векторов и оно $= dim(V)$ - размерности пространства
 
-**Замечание** Матрица перехода всегда невыраждена т. к. векторы $b_i$ - л. н. з. (по определению базиса) $\implies$ столбцы матрицы перехода тоже линейно независимы (т. к. есть изоморфизм с $F^n$) т. е. столбцы координат $b_1, \dots, b_n$ имеют ранг $n \implies \det(T_{\mathcal{A} \xrightarrow{} \mathcal{B}}) \not= 0$
+**Замечание** Матрица перехода всегда невырождена т. к. векторы $b_i$ - л. н. з. (по определению базиса) $\implies$ столбцы матрицы перехода тоже линейно независимы (т. к. есть изоморфизм с $F^n$) т. е. столбцы координат $b_1, \dots, b_n$ имеют ранг $n \implies \det(T_{\mathcal{A} \to \mathcal{B}}) \not= 0$
 
 **Утверждение** Пусть $x \in L$, $\mathcal{A}$ и $\mathcal{B}$ - базисы в $L$.
 
@@ -136,9 +136,9 @@ x_1^b \\
 x_n^b
 $ - столбец координат вектора $x$ в базисе $\mathcal{B}$
 
-Тогда $x_b = T_{\mathcal{A} \xrightarrow{} \mathcal{B}}^{-1} x^a \iff x' = T^{-1} x$
+Тогда $x_b = T_{\mathcal{A} \to \mathcal{B}}^{-1} x^a \iff x' = T^{-1} x$
 
-$\square$ Докажем, что $x^a = T_{\mathcal{A} \xrightarrow{} \mathcal{B}} \cdot x^b$ (из невырожденности). Матрицы перехода будет следовать нужная формула
+$\square$ Докажем, что $x^a = T_{\mathcal{A} \to \mathcal{B}} \cdot x^b$ (из невырожденности). Матрицы перехода будет следовать нужная формула
 
 $
 x = a \cdot x^a = (a_1, \dots, a_n) \cdot \begin{pmatrix}
@@ -152,22 +152,24 @@ $ т. к. разложение по столбцу единственно
 
 $x_b = T_{\mathcal{A} \xrightarrow{} \mathcal{B}}^{-1} x^a \iff x' = T^{-1} x \blacksquare$
 
-**Замечание** $T_{\mathcal{B} \xrightarrow{} \mathcal{A}} = T_{\mathcal{A} \xrightarrow{} \mathcal{B}}^{-1} {}$
+---
 
-**Замечание** $x^b = T_{\mathcal{B} \xrightarrow{} \mathcal{A}} \cdot x^a$
+**Замечание** $T_{\mathcal{B} \to \mathcal{A}} = T_{\mathcal{A} \to \mathcal{B}}^{-1} {}$
+
+**Замечание** $x^b = T_{\mathcal{B} \to \mathcal{A}} \cdot x^a$
 
 **Утверждение** Пусть $\mathcal{A} = \{a_1, \dots, a_n\}$, $\mathcal{B} = \{b_1, \dots, b_n\}$ и $\mathcal{C} = \{c_1, \dots, c_n\}$ - базисы
 
-Тогда $T_{\mathcal{A} \xrightarrow{} \mathcal{C}} = T_{\mathcal{A} \xrightarrow{} \mathcal{B}} \cdot T_{\mathcal{B} \xrightarrow{} \mathcal{C}}$
+Тогда $T_{\mathcal{A} \to \mathcal{C}} = T_{\mathcal{A} \to \mathcal{B}} \cdot T_{\mathcal{B} \to \mathcal{C}}$
 
 $
-\square c = b \cdot T_{\mathcal{B} \xrightarrow{} \mathcal{C}} \\
-b = a \cdot T_{\mathcal{A} \xrightarrow{} \mathcal{B}} \\
-c = a \cdot T_{\mathcal{A} \xrightarrow{} \mathcal{C}} \\
-c = a \cdot T_{\mathcal{A} \xrightarrow{} \mathcal{B}} \cdot T_{\mathcal{B} \xrightarrow{} \mathcal{C}}
+\square c = b \cdot T_{\mathcal{B} \to \mathcal{C}} \\
+b = a \cdot T_{\mathcal{A} \to \mathcal{B}} \\
+c = a \cdot T_{\mathcal{A} \to \mathcal{C}} \\
+c = a \cdot T_{\mathcal{A} \to \mathcal{B}} \cdot T_{\mathcal{B} \to \mathcal{C}}
 $
 
-Сравним и учтем, что разложение по базису единственно $\implies T_{\mathcal{A} \xrightarrow{} \mathcal{C}} = T_{\mathcal{A} \xrightarrow{} \mathcal{B}} \cdot T_{\mathcal{B} \xrightarrow{} \mathcal{C}} \blacksquare$
+Сравним и учтем, что разложение по базису единственно $\implies T_{\mathcal{A} \to \mathcal{C}} = T_{\mathcal{A} \to \mathcal{B}} \cdot T_{\mathcal{B} \to \mathcal{C}} \blacksquare$
 
 ## Подпространтсва
 
