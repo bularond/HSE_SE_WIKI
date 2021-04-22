@@ -2,7 +2,7 @@
 title: 21. Линейные пространтсва, базисы, подпространтсвап
 description: 
 published: 1
-date: 2021-04-22T12:34:12.359Z
+date: 2021-04-22T14:54:50.385Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-03T11:30:51.619Z
@@ -122,21 +122,17 @@ $ - матричная форма записи определения матри
 
 $
 x^a = \begin{pmatrix}
+x_1^a \\ x_2^a \\ \dots \\ x_n^a
 \end{pmatrix}
-x_1^a \\
-\dots \\
-x_n^a
-$ - столбец координат вектора $x$ в базисе $\mathcal{A}$
+$ - координаты вектора $x$ в базисе $\mathcal{A}{}$
 
 $
 x^b = \begin{pmatrix}
+x_1^b \\ x_2^b \\ \dots \\ x_n^b
 \end{pmatrix}
-x_1^b \\
-\dots \\
-x_n^b
-$ - столбец координат вектора $x$ в базисе $\mathcal{B}$
+$ - координаты вектора $x$ в базисе $\mathcal{B}{}$
 
-Тогда $x_b = T_{\mathcal{A} \to \mathcal{B}}^{-1} x^a \iff x' = T^{-1} x$
+Тогда $x^b = T_{\mathcal{A} \to \mathcal{B}}^{-1} x^a \iff x' = T_{\mathcal{A} \to \mathcal{B}}^{-1} x$
 
 $\square$ Докажем, что $x^a = T_{\mathcal{A} \to \mathcal{B}} \cdot x^b$ (из невырожденности). Матрицы перехода будет следовать нужная формула
 
@@ -146,24 +142,26 @@ x_1^a \\
 \dots \\
 x_n^a
 \end{pmatrix} = x_1^a \cdot a_1 + \dots + x_n^a \cdot a_n = b\cdot x^b \\
-b = a \cdot T_{\mathcal{A} \xrightarrow{} \mathcal{B}} \xrightarrow{} a \cdot x^a = b  \cdot x^b \\
-a \cdot x^a = a \cdot T_{\mathcal{A} \xrightarrow{} \mathcal{B}} \cdot x^b
+b = a \cdot T_{\mathcal{A} \to \mathcal{B}} \\
+\xrightarrow{} a \cdot x^a = b  \cdot x^b \\
+\xrightarrow{} a \cdot x^a = a \cdot T_{\mathcal{A} \to \mathcal{B}} \cdot x^b \\
+\xrightarrow{} x^a = T_{\mathcal{A} \to \mathcal{B}} \cdot x^b
 $ т. к. разложение по столбцу единственно 
-
-$x_b = T_{\mathcal{A} \xrightarrow{} \mathcal{B}}^{-1} x^a \iff x' = T^{-1} x \blacksquare$
-
----
+$\implies$
+$x_b = T_{\mathcal{A} \to \mathcal{B}}^{-1} x^a \iff x' = T^{-1} x \blacksquare$
 
 **Замечание** $T_{\mathcal{B} \to \mathcal{A}} = T_{\mathcal{A} \to \mathcal{B}}^{-1} {}$
 
 **Замечание** $x^b = T_{\mathcal{B} \to \mathcal{A}} \cdot x^a$
+
+---
 
 **Утверждение** Пусть $\mathcal{A} = \{a_1, \dots, a_n\}$, $\mathcal{B} = \{b_1, \dots, b_n\}$ и $\mathcal{C} = \{c_1, \dots, c_n\}$ - базисы
 
 Тогда $T_{\mathcal{A} \to \mathcal{C}} = T_{\mathcal{A} \to \mathcal{B}} \cdot T_{\mathcal{B} \to \mathcal{C}}$
 
 $
-\square c = b \cdot T_{\mathcal{B} \to \mathcal{C}} \\
+\square\ c = b \cdot T_{\mathcal{B} \to \mathcal{C}} \\
 b = a \cdot T_{\mathcal{A} \to \mathcal{B}} \\
 c = a \cdot T_{\mathcal{A} \to \mathcal{C}} \\
 c = a \cdot T_{\mathcal{A} \to \mathcal{B}} \cdot T_{\mathcal{B} \to \mathcal{C}}
