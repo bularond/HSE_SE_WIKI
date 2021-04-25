@@ -2,7 +2,7 @@
 title: 22. Ранги, билинейные формы, квадратичные формы
 description: 
 published: 1
-date: 2021-04-25T11:54:30.184Z
+date: 2021-04-25T11:57:02.215Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-10T11:26:44.360Z
@@ -65,7 +65,7 @@ $\square$ Необходимость ($\Rightarrow$):
 ($x_1, y_1 \in H_1, x_2, y_2 \in H_2$)
 
 $x = x_1 + x_2 = y_1 + y_2 \quad \mid -y_1 -x_2$ 
-$\underbrace{x_1 - y_1}_{\in H_1} = \underbrace{y_2 - x_2}_{\in H_2} = 0$ ($$)
+$\underbrace{x_1 - y_1}_{\in H_1} = \underbrace{y_2 - x_2}_{\in H_2} = 0$ ($\in H_1 \land \in H_2 \implies \in H_1 \cap H_2 = \{0\}$)
 
 $\implies \begin{cases}
 x_1 = y_1 \\
