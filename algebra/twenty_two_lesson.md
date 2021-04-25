@@ -2,7 +2,7 @@
 title: 22. Ранги, билинейные формы, квадратичные формы
 description: 
 published: 1
-date: 2021-04-25T12:26:44.403Z
+date: 2021-04-25T12:27:57.577Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-10T11:26:44.360Z
@@ -78,7 +78,7 @@ x_2 = y_2
 
 Если мы предположим, что $\exists x \not= 0: x \in H_1 \cap H_2$, 
 
-то $\lambda x \in H_1$ и $\lambda x \in H_2$
+то $\forall \lambda: \lambda x \in H_1$ и $\lambda x \in H_2$
 А значит $\forall \beta \in F \quad x = \underbrace{(1 - \beta)x}_{\in H_1} + \overbrace{\beta x}^{\in H_2} \implies$ представление не единственно $\blacksquare$
 
 Пусть $L = H_1 \oplus H_2$. Тогда $\forall x \in L$ может быть представлен единственным образом в виде $x = y + z$, где $y \in H_1, z \in H_2$
