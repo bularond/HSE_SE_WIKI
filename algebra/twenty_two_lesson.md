@@ -2,7 +2,7 @@
 title: 22. Ранги, билинейные формы, квадратичные формы
 description: 
 published: 1
-date: 2021-04-25T11:57:02.215Z
+date: 2021-04-25T12:26:44.403Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-10T11:26:44.360Z
@@ -70,15 +70,16 @@ $\underbrace{x_1 - y_1}_{\in H_1} = \underbrace{y_2 - x_2}_{\in H_2} = 0$ ($\in 
 $\implies \begin{cases}
 x_1 = y_1 \\
 x_2 = y_2
-\end{cases} {}$
+\end{cases}{}$, противоречие
 
 Достаточность ($\Leftarrow$):
 
 Пусть представление единственно: $x = x_1 + x_2$
 
-Если мы предположим, что $\exists x \not= 0: x \in H_1 \cap H_2$, то $\forall x \in F: \lambda x \in H_1$ и $\lambda x \in H_2$
+Если мы предположим, что $\exists x \not= 0: x \in H_1 \cap H_2$, 
 
-Тогда $\forall \beta \in F: x = \underbrace{(1 - \beta)}_{\in H_1} + \overbrace{\beta x}^{\in H_2} \implies$ представление не единственно $\blacksquare$
+то $\lambda x \in H_1$ и $\lambda x \in H_2$
+А значит $\forall \beta \in F \quad x = \underbrace{(1 - \beta)x}_{\in H_1} + \overbrace{\beta x}^{\in H_2} \implies$ представление не единственно $\blacksquare$
 
 Пусть $L = H_1 \oplus H_2$. Тогда $\forall x \in L$ может быть представлен единственным образом в виде $x = y + z$, где $y \in H_1, z \in H_2$
 
