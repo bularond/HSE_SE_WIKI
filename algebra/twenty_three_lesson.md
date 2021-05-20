@@ -2,7 +2,7 @@
 title: 23. Квадратичные формы, канонический и нормальный вид
 description: 
 published: 1
-date: 2021-05-20T18:39:03.364Z
+date: 2021-05-20T18:39:51.546Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-17T11:24:12.542Z
@@ -117,6 +117,6 @@ $Q_2(z_1, \dots, z_k) = \mu_1 z_1^2 + \dots + \mu_k z_k^2; \mu_j \not= 0, j \in 
 
 $\square$ Если ($f$ не является неприводимым) $f(x) = f_1(x) \cdot f_2(x)$, где $0< deg(f_i) < deg(f)$, то $\bar f_1, \bar f_2 \in P[x]/\langle f(x) \rangle$ отличны от нуля, но $\overline{f_1(x)} \cdot \overline{f_2(x)} = \overline{f(x)} = \bar 0 \implies$ в $P[x]/\langle f(x)\rangle$ есть делители $0 \implies$ это не поле
 
-Покажем, что есть $f(x)$ неприводим, то любой класс вычетов $\overline{a(x)} \not= \bar 0$ обратим. Представитель $\overline{a(x)}$ это некоторый многочлен $a(x)$ с $deg(a(x)) < deg(f(x))$ т. к. $f(x)$ неприводим, то он взаимно прост с $a(x) \implies \exists b(x), c(x)$: $a \cdot b + c \cdot f = 1$, т. е. $\bar a \cdot \bar b = \bar 1 \mod \langle f(x)\rangle$, т. е. $\bar b$ - обратимый элемент к $\bar a$ в $P[x]/\langle f(x)\rangle \blacksquare$
+Покажем, что есть $f(x)$ неприводим, то любой класс вычетов $\overline{a(x)} \not= \bar 0$ обратим. Представитель $\overline{a(x)}$ это некоторый многочлен $a(x)$ с $deg(a(x)) < deg(f(x))$ т. к. $f(x)$ неприводим, то он взаимно прост с $a(x) \implies \exists b(x), c(x)$: $a \cdot b + c \cdot f = 1$, т. е. $\bar a \cdot \bar b = \bar 1 \mod \langle f(x)\rangle$, т. е. $\bar b$ - обратный элемент к $\bar a$ в $P[x]/\langle f(x)\rangle \blacksquare$
 
 ----
