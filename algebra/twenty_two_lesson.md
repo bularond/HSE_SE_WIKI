@@ -2,7 +2,7 @@
 title: 22. Ранги, билинейные формы, квадратичные формы
 description: 
 published: 1
-date: 2021-05-20T12:41:41.687Z
+date: 2021-05-20T16:25:40.939Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-10T11:26:44.360Z
@@ -119,7 +119,7 @@ y_1 \\
 y_n
 \end{pmatrix}$ - столбец координат вектора $y$
 
-Тогда $b(x, y) = X^T \cdot B \cdot Y$ - матрица билинейной формы
+Тогда $b(x, y) = X^T \cdot B \cdot Y$ - Здесь $B$ - матрица билинейной формы
 
 *Пример* $b(x, y) = x_1 \cdot y_2 = \begin{pmatrix}
 x_1 & x_2
