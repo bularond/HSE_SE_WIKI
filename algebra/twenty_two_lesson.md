@@ -2,7 +2,7 @@
 title: 22. Ранги, билинейные формы, квадратичные формы
 description: 
 published: 1
-date: 2021-04-25T13:20:17.547Z
+date: 2021-05-20T12:41:41.687Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-10T11:26:44.360Z
@@ -81,7 +81,7 @@ x_2 = y_2
 то $\forall \lambda: \lambda x \in H_1$ и $\lambda x \in H_2$
 А значит $\forall \beta \in F \quad x = \underbrace{(1 - \beta)x}_{\in H_1} + \overbrace{\beta x}^{\in H_2} \implies$ представление не единственно $\blacksquare$
 
-## Проекции
+## Проекция
 
 Пусть $L = H_1 \oplus H_2$. Тогда $\forall x \in L$ может быть представлен единственным образом в виде $x = y + z$, где $y \in H_1, z \in H_2$
 
@@ -89,7 +89,7 @@ x_2 = y_2
 
 $y = пр_{H_1} x, z = пр_{H_2} x$
 
-## Билинейные формы
+## Билинейная форма
 
 Пусть $V$ - линейное пространство над $\R$
 
