@@ -1,8 +1,8 @@
 ---
-title: 22. Ранги, билинейные формы, квадратичные формы
+title: 22. Билинейные, квадратичные формы
 description: 
 published: 1
-date: 2021-05-20T16:56:13.775Z
+date: 2021-05-28T11:29:59.338Z
 tags: 
 editor: markdown
 dateCreated: 2021-03-10T11:26:44.360Z
