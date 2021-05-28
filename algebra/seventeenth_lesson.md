@@ -1,8 +1,8 @@
 ---
-title: 17. Теорема Кэли, примеры криптографии
+title: 17. Теорема Кэли, криптосистемы
 description: 
 published: 1
-date: 2021-02-16T11:22:03.067Z
+date: 2021-05-28T11:38:58.854Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-03T12:26:15.393Z
