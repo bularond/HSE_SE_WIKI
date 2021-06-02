@@ -2,7 +2,7 @@
 title: 20. Подполе, Лин. пространство
 description: 
 published: 1
-date: 2021-06-02T17:27:15.480Z
+date: 2021-06-02T17:45:40.900Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-24T11:37:56.340Z
@@ -40,7 +40,7 @@ $\langle 1 \rangle$ является подкольцом в $P$ т. к. люб�
 
 1. Если $char(P) = p > 0$, то $\langle 1 \rangle \cong \Z_p$ - поле и $\implies P_0 = \langle 1 \rangle \cong \Z_p$
 
-	**Пример** $\Z_p \subset \Z_p(x)$
+	**Пример** $\Z_2 \subset F_4$, где $F_4$ это [вот это](https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D0%BD%D0%B5%D1%87%D0%BD%D0%BE%D0%B5_%D0%BF%D0%BE%D0%BB%D0%B5#%D0%9F%D0%BE%D0%BB%D0%B5_%D0%B8%D0%B7_%D1%87%D0%B5%D1%82%D1%8B%D1%80%D1%91%D1%85_%D1%8D%D0%BB%D0%B5%D0%BC%D0%B5%D0%BD%D1%82%D0%BE%D0%B2)
 
 2. Если $char(P) = 0$, то $\langle 1 \rangle \cong \Z$ (это не поле) в $P_0$ должны быть все дроби вида $\frac{a}{b}$, где $a, b \in \langle 1 \rangle$, $b \not= 0$. Они образуют подполе, изоморфное $\mathbb{Q} \ \blacksquare$
 
