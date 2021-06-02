@@ -2,7 +2,7 @@
 title: 20. Подполе, Лин. пространство
 description: 
 published: 1
-date: 2021-06-02T16:18:35.615Z
+date: 2021-06-02T16:21:35.487Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-24T11:37:56.340Z
@@ -29,7 +29,7 @@ $
 
 **Утверждание** Пусть $P$ - поле, а $P_0$ его постое подполе. Тогда:
 
-1. Если $char(P) = p > 0$, то $P_0 \cong Z_p$
+1. Если $char(P) = p > 0$, то $P_0 \cong \Z_p$
 2. Если $char(P) = 0$, то $P_0 \cong \mathbb{Q} {}$
 
 $\square$ Рассмотрим $1 \in P \implies \langle 1 \rangle \subseteq (P, +)$ (где $\langle 1 \rangle$ - подгруппо по сложнеию порожденная $1$)
