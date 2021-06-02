@@ -1,8 +1,8 @@
 ---
-title: 13. Гомоморфизм, Изоморфизм
+title: 13. Группа, Гомоморфизм, Изоморфизм
 description: 
 published: 1
-date: 2021-06-02T14:52:15.208Z
+date: 2021-06-02T14:52:35.573Z
 tags: 
 editor: markdown
 dateCreated: 2020-12-16T11:59:01.997Z
