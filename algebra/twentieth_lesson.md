@@ -2,13 +2,13 @@
 title: 20. Подполе, Лин. пространство
 description: 
 published: 1
-date: 2021-06-02T16:16:48.736Z
+date: 2021-06-02T16:18:35.615Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-24T11:37:56.340Z
 ---
 
-## Расширение поля
+## Подполя
 
 > Исторически люди любили расширять
 
@@ -34,13 +34,13 @@ $
 
 $\square$ Рассмотрим $1 \in P \implies \langle 1 \rangle \subseteq (P, +)$ (где $\langle 1 \rangle$ - подгруппо по сложнеию порожденная $1$)
 
-$<1>$ является подкольцом в $P$ т. к. любое подполе $P$ содержит $1$, то оно содержит и $<1>$, т. е. $<1> \subseteq P_0$
+$\langle 1 \rangle$ является подкольцом в $P$ т. к. любое подполе $P$ содержит $1$, то оно содержит и $\langle 1 \rangle$, т. е. $\langle 1\rangle \subseteq P_0$
 
-1. Если $char(P) = p > 0$, то $<1> \cong \Z_p$ - поле и $\implies P_0 = <1> \cong \Z_p$
+1. Если $char(P) = p > 0$, то $\langle 1 \rangle \cong \Z_p$ - поле и $\implies P_0 = \langle 1 \rangle \cong \Z_p$
 
 *Пример* $\Z_p \subset \Z_p(x)$
 
-1. Если $char(P) = 0$, то $<1> \cong \Z$ (это не поле) в $P_0$ должны быть все дроби вида $\frac{a}{b}$, где $a, b \in <1>$, $b \not= 0$. Они образуют подполе, изоморфное $\mathbb{Q} \blacksquare$
+1. Если $char(P) = 0$, то $\langle 1 \rangle \cong \Z$ (это не поле) в $P_0$ должны быть все дроби вида $\frac{a}{b}$, где $a, b \in \langle 1 \rangle$, $b \not= 0$. Они образуют подполе, изоморфное $\mathbb{Q} \blacksquare$
 
 **Определение** Элемент $\lambda \in P$ называется алгебраическим над подполем $F \subset P$, если $\exists f(x) \not= 0: f(\lambda) = 0$, т. е. $f(x) \in F[x]$
 
