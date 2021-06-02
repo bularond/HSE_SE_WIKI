@@ -1,8 +1,8 @@
 ---
-title: 13. Продолжение теории груп
+title: 13. Гомоморфизм, Изоморфизм
 description: 
 published: 1
-date: 2021-02-02T23:58:23.733Z
+date: 2021-06-02T14:52:15.208Z
 tags: 
 editor: markdown
 dateCreated: 2020-12-16T11:59:01.997Z
