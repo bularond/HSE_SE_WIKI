@@ -1,8 +1,8 @@
 ---
-title: 14. Примеры групп, смежные классы
+title: 14. Ядро, Смежные классы
 description: 
 published: 1
-date: 2021-03-04T14:31:04.227Z
+date: 2021-06-02T15:06:15.951Z
 tags: 
 editor: markdown
 dateCreated: 2021-01-13T11:29:50.918Z
