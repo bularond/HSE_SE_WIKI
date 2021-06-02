@@ -2,7 +2,7 @@
 title: 19. Факторкольцо, многочлены, поля
 description: 
 published: 1
-date: 2021-03-30T14:31:04.224Z
+date: 2021-06-02T16:06:54.892Z
 tags: 
 editor: markdown
 dateCreated: 2021-02-24T11:33:21.748Z
@@ -97,7 +97,7 @@ $\tau((a + I) \cdot (b + I)) = \tau(a \cdot b + I) = \varphi(a \cdot b) = \varph
 1. $char(\R) = char(\mathbb{C}) = char(\mathbb{Q}) = 0$
 2. $char(\Z_p) = p$
 
-**Утверждение**: $char(p) = \begin{cases}
+**Утверждение**: $char(\Z_p) = \begin{cases}
 0, \\
 p, p - \text{простое}
 \end{cases}
@@ -107,7 +107,11 @@ $\square$ Пусть $p \not= 0 \implies p \ge 2 (1 \not=0)$
 
 Если $p = m \cdot k$, где $1 \le m, k < p$
 
-$0 = \underbrace{1 + \dots + 1}_{m \cdot k} = \underbrace{(1 + \dots + 1)}_m \cdot \underbrace{(1 + \dots + 1)}_k$ так как $p = M \cdot k$ минимально, то обе скобки $\not= 0 \implies m$ и $k$ - делители нуля - а их нет в поле по определению $\blacksquare$
+$0 = \underbrace{1 + \dots + 1}_{m \cdot k} = \underbrace{(1 + \dots + 1)}_m \cdot \underbrace{(1 + \dots + 1)}_k$ так как $p = M \cdot k$ минимально, то обе скобки $\not= 0 \implies m$ и $k$ - делители нуля - а их нет в поле $\blacksquare$
+
+**Утверждение** Поле $F$ не может иметь делителей нуля
+$\square$ Пусть $\exists a,b \in F, a \ne 0, b \ne 0$
+$\forall a \in F \ \exists a^{-1} \implies (ab = 0 \rightarrow b = 0 * a^{-1} \rightarrow b = 0)$ противоречие $\blacksquare$
 
 ---
 
