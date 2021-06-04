@@ -2,9 +2,9 @@
 title: 04. Свойства определителей и обратная матрица
 description: 
 published: 1
-date: 2020-11-17T22:33:55.185Z
+date: 2021-06-04T10:39:15.036Z
 tags: 
-editor: undefined
+editor: markdown
 dateCreated: 2020-09-30T09:34:51.550Z
 ---
 
@@ -175,6 +175,8 @@ $$
 = \sum_{j=1}^n x_j \det(A_1, \dots, A_{i-1}, A_j, A_{i+1}, \dots, A_n) = \\
 = x_i \cdot \det(A_1, \dots, A_{i-1}, A_i, A_{i+1}, \dots, A_n) = x_i \cdot \det A ~ \blacksquare
 $$
+
+понятнее [на педивики](https://ru.wikipedia.org/wiki/%D0%9C%D0%B5%D1%82%D0%BE%D0%B4_%D0%9A%D1%80%D0%B0%D0%BC%D0%B5%D1%80%D0%B0#%D0%9E%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5_%D0%BC%D0%B5%D1%82%D0%BE%D0%B4%D0%B0)
 
 **Следствие**\
 Если мы рассматриваем СЛАУ $Ax = 0$ (она называется однородной), с квадратной матрицей $A$ и $\det A\ne 0$, то у этой СЛАУ $\exists!$ решение и это $x=0$
